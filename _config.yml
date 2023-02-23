@@ -4,7 +4,7 @@ description: 'Phát triển dự án IoT cùng Flutter'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
-disqus: 'demowebsite'
+disqus: ''
 email: 'flutteriot@gmail.com'
 mailchimp-list: 'https://flutteriot.us21.list-manage.com/subscribe/post?u=822b24d0ace28015d54f699a6&amp;id=a461d2f2ef&amp;f_id=000d97e1f0'
 # https://dantopia.us11.list-manage.com/subscribe/post?u=6045cdee0aa044c879cf5b18a&amp;id=c51661b0d3&amp;f_id=00ff98e0f0
@@ -41,7 +41,7 @@ defaults:
     values:
       layout: post
       author: dantino
-      avatar: /assets/images/avatar1.jpg
+      avatar: assets/images/dantino-avatar.jpeg
       
   # all pages
   - scope:
