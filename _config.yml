@@ -1,0 +1,62 @@
+# Site
+name: 'FlutterIoT'
+description: 'Phát triển dự án IoT cùng Flutter'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: ""
+disqus: 'demowebsite'
+email: 'flutteriot@gmail.com'
+mailchimp-list: 'https://flutteriot.us21.list-manage.com/subscribe/post?u=822b24d0ace28015d54f699a6&amp;id=a461d2f2ef&amp;f_id=000d97e1f0'
+# https://dantopia.us11.list-manage.com/subscribe/post?u=6045cdee0aa044c879cf5b18a&amp;id=c51661b0d3&amp;f_id=00ff98e0f0
+# 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    dantino:
+      name:           Tống V.T. Dân
+      site:           https://dantopia.vn
+      avatar:         assets/images/dantino-avatar.jpeg
+      bio:            "Tống V.T. Dân là Cựu Đồng sáng lập và Giám đốc vận hành tại Gremsy J.S.C, Giám đốc và là nhà sáng lập Kodimo Co., Ltd, với kinh nghiệm hơn 16 năm về Kiến trúc phần mềm và các công nghệ hiện đại, bao gồm Phát triển phần cứng. Anh ấy cũng là người đam mê sáng chế và am hiểu các công cụ sáng chế, đổi mới sáng tạo. Anh ấy thích chia sẻ kiến ​​thức của mình vì lợi ích của người khác."
+      email:          dantopiavn@gmail.com
+      twitter:       https://twitter.com/dantopiavn
+      facebook:      https://www.facebook.com/tongvtdan
+      linkedin:      https://www.linkedin.com/in/tongvtdan
+  
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: dantino
+      avatar: /assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
