@@ -205,7 +205,10 @@ a.text-dark:hover {
 .navbar-brand {
 	margin-right:2rem;
 	font-size:1.55rem;
-    font-family:"Georgia","Times New Roman",serif;
+    font-family:"Roboto",
+		"Helvetica Neue",
+		"Arial",
+		sans-serif;
 }
 .dropdown-item {
 	font-weight:400;
@@ -297,7 +300,10 @@ a.text-dark:hover {
 		right:0;
 	}
     .jumbotron-home h1 {
-        font-family: Georgia,Times,"Times New Roman",serif;
+        font-family: "Roboto",
+			"Helvetica Neue",
+			"Arial",
+			sans-serif;
         font-size: 2.4rem;
         font-weight: 700;
         line-height: 1.1;
@@ -654,10 +660,15 @@ footer {
 article {
 	font-size:20px;
 	line-height:1.86;
-    font-family:Lora;
+    font-family:"Roboto",
+		"Helvetica Neue",
+		"Arial",
+		sans-serif;
 }
 .article-headline {
-    font-family: Georgia,Times,"Times New Roman",serif;
+    font-family: "Roboto",
+		"Helvetica Neue",
+		"Arial",sans-serif;
     font-size: 3.2rem;
     font-weight: 400;
     line-height: 1.15;
@@ -674,7 +685,7 @@ article blockquote {
 }
 article blockquote:before {
 	content:"“";
-	font-family:Georgia;
+	font-family:"Arial", "Helvetica", sans-serif;
 	font-size:8rem;
 	margin:-1rem 2rem 0 -3.9rem;
 	position:absolute;
