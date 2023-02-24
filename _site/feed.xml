@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-24T16:52:15+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FlutterIoT</title><subtitle>Phát triển dự án IoT cùng Flutter</subtitle><entry><title type="html">Làm thế nào để phát triển dự án IoT với Flutter? (Bài 2)</title><link href="http://localhost:4000/flutter-for-iot-projects-02/" rel="alternate" type="text/html" title="Làm thế nào để phát triển dự án IoT với Flutter? (Bài 2)" /><published>2023-02-20T00:00:00+07:00</published><updated>2023-02-20T00:00:00+07:00</updated><id>http://localhost:4000/flutter-for-iot-projects-02</id><content type="html" xml:base="http://localhost:4000/flutter-for-iot-projects-02/"><![CDATA[<h1 id="làm-thế-nào-dự-án-iot-phát-triển-thành-công-với-flutter">Làm thế nào dự án IoT phát triển thành công với Flutter?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-24T20:13:41+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FlutterIoT</title><subtitle>Phát triển dự án IoT cùng Flutter</subtitle><entry><title type="html">Các nguồn tham khảo hay để học Flutter</title><link href="http://localhost:4000/flutter-reference-resources/" rel="alternate" type="text/html" title="Các nguồn tham khảo hay để học Flutter" /><published>2023-02-24T00:00:00+07:00</published><updated>2023-02-24T00:00:00+07:00</updated><id>http://localhost:4000/flutter-reference-resources</id><content type="html" xml:base="http://localhost:4000/flutter-reference-resources/"><![CDATA[<h1 id="nguồn-tham-khảo-hay-dành-cho-flutter">Nguồn tham khảo hay dành cho Flutter</h1>
+
+<p>Để bắt đầu học Flutter, có rất nhiều nguồn tài liệu và khoá học trên internet, dưới đây mình xin liệt kê 3 nguồn chính mà mọi người có thể tìm hiểu về Flutter.</p>
+<h2 id="trang-web-tài-liệu-flutter">Trang web tài liệu Flutter</h2>
+<p>Flutter có trang tài liệu đầy đủ các nội dung cũng như CookBook giúp mọi người học Flutter một cách dễ dàng.</p>
+
+<p><a href="https://docs.flutter.dev/"><img src="/assets/images/posts/flutter-reference-resources/flutter-doc-official.png" alt="Nội dung trong tài liệu trên trang web chính thức của Flutter" /></a></p>
+
+<p>Bắt đầu ngay với bộ tài liệu phong phú tại <a href="https://docs.flutter.dev/">Trang web chính thức của Flutter</a></p>
+
+<h2 id="trang-các-ví-dụ-flutter-awesome">Trang Các ví dụ Flutter Awesome</h2>
+
+<p>Tai đây, chúng ta có thể tham khảo nhiều ứng dụng được cộng đồng đưa lên, rất thích hợp để học hỏi, tham khảo các chương trình mẫu.</p>
+
+<p>Cá nhân mình đôi khi cũng vào đây tham khảo để tìm ý tưởng thiết kế UI.</p>
+
+<p><a href="https://flutterawesome.com/"><img src="/assets/images/posts/flutter-reference-resources/flutter-awesome.png" alt="Giới thiệu trang FlutterAwesome" /></a></p>
+
+<p>Tham khảo ngay các ứng dụng của cộng đồng Flutter tại <a href="https://flutterawesome.com/">Flutter Awesome</a></p>
+
+<h2 id="trang-thống-kê-các-packages-flutter-gems">Trang thống kê các packages: Flutter Gems</h2>
+
+<p>Hệ sinh thái và cộng đồng Flutter ngày càng được phát triển đã đóng góp vào thư viện các gói mở rộng dành cho Dart và Flutter rất nhiều.</p>
+
+<p>Trong trường hợp chúng ta còn chưa rõ gói tích hợp tên gì, thì đã có <a href="https://fluttergems.dev/">Flutter Gems</a></p>
+
+<p><a href="https://fluttergems.dev/"><img src="/assets/images/posts/flutter-reference-resources/flutter-gems.png" alt="Giới thiệu trang FlutterAwesome" /></a></p>
+
+<hr />]]></content><author><name>dantino</name></author><category term="Flutter" /><category term="Tham khảo" /><summary type="html"><![CDATA[Nguồn tham khảo hay dành cho Flutter]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/flutter-reference-resources/flutter-reference-resources.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/flutter-reference-resources/flutter-reference-resources.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Làm thế nào để phát triển dự án IoT với Flutter? (Bài 2)</title><link href="http://localhost:4000/flutter-for-iot-projects-02-copy/" rel="alternate" type="text/html" title="Làm thế nào để phát triển dự án IoT với Flutter? (Bài 2)" /><published>2023-02-20T00:00:00+07:00</published><updated>2023-02-20T00:00:00+07:00</updated><id>http://localhost:4000/flutter-for-iot-projects-02%20copy</id><content type="html" xml:base="http://localhost:4000/flutter-for-iot-projects-02-copy/"><![CDATA[<h1 id="làm-thế-nào-dự-án-iot-phát-triển-thành-công-với-flutter">Làm thế nào dự án IoT phát triển thành công với Flutter?</h1>
 <p>Chà, bạn có thể làm theo các bước dưới đây để phát triển ứng dụng dựa trên IoT bằng nền tảng phát triển ứng dụng Flutter.</p>
 
 <ul>
@@ -192,7 +220,7 @@ Flutter còn cung cấp các tính năng hỗ trợ tối đa khả năng xử l
   <li>Tự học các chức năng phức tạp hơn và các công cụ liên quan như Firebase, các API của Google, các thư viện bên thứ ba, các tài liệu tham khảo và các bài viết nhằm giúp bạn có thể học tốt hơn về Flutter.</li>
 </ol>
 
-<p>Tham khảo thêm tại <a href="hhttps://flutter.dev/learn">trang web chính thức của Flutter</a> để có thêm thông tin.</p>]]></content><author><name>dantino</name></author><category term="Flutter" /><category term="featured" /><summary type="html"><![CDATA[Các bước để bắt đầu với Flutter]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/learn-flutter.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/learn-flutter.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Flutter 3.7 có gì mới?</title><link href="http://localhost:4000/what-new-in-flutter-37_vi/" rel="alternate" type="text/html" title="Flutter 3.7 có gì mới?" /><published>2023-01-29T00:00:00+07:00</published><updated>2023-01-29T00:00:00+07:00</updated><id>http://localhost:4000/what-new-in-flutter-37_vi</id><content type="html" xml:base="http://localhost:4000/what-new-in-flutter-37_vi/"><![CDATA[<h1 id="các-điểm-mới-và-cải-tiến-trong-bản-flutter-37">Các điểm mới và cải tiến trong bản Flutter 3.7</h1>
+<p>Tham khảo thêm tại <a href="https://flutter.dev/learn">trang web chính thức của Flutter</a> để có thêm thông tin.</p>]]></content><author><name>dantino</name></author><category term="Flutter" /><category term="featured" /><summary type="html"><![CDATA[Các bước để bắt đầu với Flutter]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/learn-flutter.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/learn-flutter.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Flutter 3.7 có gì mới?</title><link href="http://localhost:4000/what-new-in-flutter-37_vi/" rel="alternate" type="text/html" title="Flutter 3.7 có gì mới?" /><published>2023-01-29T00:00:00+07:00</published><updated>2023-01-29T00:00:00+07:00</updated><id>http://localhost:4000/what-new-in-flutter-37_vi</id><content type="html" xml:base="http://localhost:4000/what-new-in-flutter-37_vi/"><![CDATA[<h1 id="các-điểm-mới-và-cải-tiến-trong-bản-flutter-37">Các điểm mới và cải tiến trong bản Flutter 3.7</h1>
 
 <p>Đầu năm 2023 thật tuyệt vời đối với các nhà phát triển sử dụng Flutter, vì Google vừa phát hành Flutter 3.7. Các nhà phát triển có thể tăng cường hơn nữa sự dễ dàng của quy trình lập trình với các tính năng mới tuyệt vời. Ngoài ra, Flutter đã cải tiến và tối ưu hóa các tính năng hiện có. Tuy nhiên, bản phát hành ổn định của Dart 3 vẫn chưa được công bố nhưng nó sẽ mang lại năng suất và tính di động trong tương lai.</p>
 

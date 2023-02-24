@@ -20,4 +20,4 @@ Các bước bắt đầu học Flutter có thể được chia thành các bư�
 Tham khảo thêm tại [trang web chính thức của Flutter][flutter-website] để có thêm thông tin.
 
 
-[flutter-website]: hhttps://flutter.dev/learn
+[flutter-website]: https://flutter.dev/learn
