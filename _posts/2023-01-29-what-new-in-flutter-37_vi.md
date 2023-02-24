@@ -5,6 +5,7 @@ author: dantino
 categories: [Flutter, Flutter 3.7, Flutter Updates]
 image: assets/images/posts/whats-new/whats-new-3_7-post-thumbnail-vi.jpeg
 tags: [featured]
+toc: true
 ---
 # Các điểm mới và cải tiến trong bản Flutter 3.7 
 

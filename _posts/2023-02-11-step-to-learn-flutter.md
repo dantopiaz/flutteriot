@@ -5,6 +5,7 @@ author: dantino
 categories: [Flutter]
 image: assets/images/posts/learn-flutter.png
 tags: [featured]
+toc: false
 ---
 # Các bước để bắt đầu với Flutter 
 

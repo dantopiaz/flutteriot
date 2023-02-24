@@ -5,6 +5,7 @@ author: dantino
 categories: [Flutter,IoT, Công nghệ,]
 image: assets/images/posts/iot-flutter-02/Flutter-IoT-Post-Cover-02.jpg
 tags: [featured]
+toc: true
 ---
 # Làm thế nào dự án IoT phát triển thành công với Flutter?
 Chà, bạn có thể làm theo các bước dưới đây để phát triển ứng dụng dựa trên IoT bằng nền tảng phát triển ứng dụng Flutter.
@@ -64,7 +65,7 @@ Nếu bạn vẫn không chắc chắn về framework Flutter, tại sao không 
 
 🌟 Chúc mừng bạn đã tiến một bước vào con đường phát triển sản phẩm IoT với Flutter.
 
-## **Chúc bạn thành công!**
+**Chúc bạn thành công!**
 
 ***PS. Tiếp tục theo dõi các bài viết tiếp theo về Flutter và IoT để bạn có thể hiểu sâu hơn, giúp lựa chọn giải pháp phù hợp nhất cho dự án của bạn hoặc của công ty bạn.***
 

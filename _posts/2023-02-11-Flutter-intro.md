@@ -5,6 +5,7 @@ author: dantino
 categories: [Flutter]
 image: assets/images/Flutter-Intro.jpeg
 tags: [featured]
+toc: false
 ---
 # Giới thiệu về nền tảng phát triển ứng dụng đa nền tảng Flutter 
 

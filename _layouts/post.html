@@ -40,35 +40,26 @@ layout: default
 
 <div class="container-lg pt-4 pb-4">
 	<div class="row justify-content-center">
-        
-        
-        <!-- Share -->
-		<!-- <div class="col-lg-2 pr-4 mb-4 col-md-12">
-			<div class="sticky-top sticky-top-offset text-center">
-				<div class="text-muted">
-					Chia sẻ bài này
-				</div>
-				<div class="share d-inline-block"> -->
-					<!-- AddToAny BEGIN -->
-					<!-- <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-						<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-						<a class="a2a_button_facebook"></a>
-						<a class="a2a_button_twitter"></a>
-					</div>
-					<script async src="https://static.addtoany.com/menu/page.js"></script> -->
-					<!-- AddToAny END -->
-				<!-- </div>
+
+		<div class="col-md-10 pl-0">
+					<!-- Toc if any -->
+			{% if page.toc %}
+			{% if page.beforetoc %}
+			<p><em>{{page.beforetoc}}</em></p>
+			{% endif %}
+			<div class="toc mt-4 mb-4 lead">
+				<h4>Tóm tắt</h4>
+				{% include toc.html html=content %}
 			</div>
-		</div> -->
-        
-		<div class="col-md-2 pl-0">
-			{% include share.html %}
+			{% endif %}
+			<!-- End Toc -->
 		</div>
         
 		<div class="col-md-12 col-lg-8">
             
             <!-- Article -->
-			<article class="article-post">                
+			<article class="article-post">        
+				
 			{{ content }}                
 			</article>
 			
@@ -79,6 +70,10 @@ layout: default
 				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
 				{% endfor %}
 				</span>
+			</div>
+
+			<div class="col-md-4 pl-0">
+				{% include share.html %}
 			</div>
  
             <!-- Mailchimp Subscribe Form -->

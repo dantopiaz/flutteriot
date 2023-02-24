@@ -5,6 +5,7 @@ author: dantino
 categories: [Flutter, IoT, Công nghệ]
 image: assets/images/posts/iot-flutter-01/Flutter-IoT-Post-Cover-01.jpg
 tags: [featured, sticky]
+toc: true
 ---
 # Sử dụng Flutter trong dự án IoT (Internet of Things - Internet vạn vật) 
  Ngày nay, công nghệ đang thâm nhập vào mọi khía cạnh của cuộc sống. Ví dụ: ngày nay, bạn có thể kết nối và vận hành máy điều hòa của mình bằng điện thoại di động. Điều này là do Internet cho phép hai địa chỉ IP có sự trao đổi thông tin và dữ liệu.   
