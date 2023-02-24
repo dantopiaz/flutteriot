@@ -5,14 +5,15 @@ author: dantino
 categories: [Flutter,IoT, Công nghệ,]
 image: assets/images/posts/iot-flutter-02/Flutter-IoT-Post-Cover-02.jpg
 tags: [featured]
+toc: true
 ---
 # Làm thế nào dự án IoT phát triển thành công với Flutter?
 Chà, bạn có thể làm theo các bước dưới đây để phát triển ứng dụng dựa trên IoT bằng nền tảng phát triển ứng dụng Flutter.
 
 - Hiểu các yêu cầu của ứng dụng IoT. Điều này bao gồm loại thiết bị và dữ liệu cảm biến sẽ được sử dụng, cũng như chức năng mong muốn của ứng dụng.
 - Chọn một nền tảng IoT phù hợp có thể tích hợp với Flutter. Một số tùy chọn phổ biến bao gồm Google IoT Core, AWS IoT và Azure IoT.
-- Sử dụng một gói (package) chẳng hạn như “flutter_blue” để kết nối và giao tiếp với các thiết bị IoT.
-- Sử dụng một gói chẳng hạn như “mqtt_client” để xử lý giao thức MQTT (giao thức mạng giữa các máy cho hàng đợi tin nhắn/dịch vụ xếp hàng tin nhắn) để liên lạc giữa ứng dụng Flutter và nền tảng IoT.
+- Sử dụng một gói (package) chẳng hạn như [“flutter_blue”](https://pub.dev/packages/flutter_blue_plus) để kết nối và giao tiếp với các thiết bị IoT.
+- Sử dụng một gói chẳng hạn như [“mqtt_client”](https://pub.dev/packages/mqtt_client) để xử lý giao thức MQTT (giao thức mạng giữa các máy cho hàng đợi tin nhắn/dịch vụ xếp hàng tin nhắn) để liên lạc giữa ứng dụng Flutter và nền tảng IoT.
 - Triển khai chức năng mong muốn của ứng dụng, chẳng hạn như hiển thị dữ liệu cảm biến và gửi lệnh đến thiết bị IoT.
 - Kiểm tra ứng dụng trên cả trình mô phỏng (máy ảo) và thiết bị vật lý (đảm bảo các kết nối như BLE được thực hiện đúng).
 - Cuối cùng, hãy đảm bảo rằng thiết kế, điều hướng và trải nghiệm người dùng là hàng đầu. Và nếu bạn cần thực hiện bất kỳ thay đổi nào, bộ giao diện người dùng Flutter sẽ luôn có ích.
@@ -64,7 +65,7 @@ Nếu bạn vẫn không chắc chắn về framework Flutter, tại sao không 
 
 🌟 Chúc mừng bạn đã tiến một bước vào con đường phát triển sản phẩm IoT với Flutter.
 
-## **Chúc bạn thành công!**
+**Chúc bạn thành công!**
 
 ***PS. Tiếp tục theo dõi các bài viết tiếp theo về Flutter và IoT để bạn có thể hiểu sâu hơn, giúp lựa chọn giải pháp phù hợp nhất cho dự án của bạn hoặc của công ty bạn.***
 

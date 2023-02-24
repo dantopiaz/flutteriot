@@ -5,6 +5,7 @@ author: dantino
 categories: [Flutter]
 image: assets/images/posts/learn-flutter.png
 tags: [featured]
+toc: false
 ---
 # Các bước để bắt đầu với Flutter 
 
@@ -19,4 +20,4 @@ Các bước bắt đầu học Flutter có thể được chia thành các bư�
 Tham khảo thêm tại [trang web chính thức của Flutter][flutter-website] để có thêm thông tin.
 
 
-[flutter-website]: hhttps://flutter.dev/learn
+[flutter-website]: https://flutter.dev/learn
