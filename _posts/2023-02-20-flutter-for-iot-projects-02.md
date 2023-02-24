@@ -11,8 +11,8 @@ Chà, bạn có thể làm theo các bước dưới đây để phát triển �
 
 - Hiểu các yêu cầu của ứng dụng IoT. Điều này bao gồm loại thiết bị và dữ liệu cảm biến sẽ được sử dụng, cũng như chức năng mong muốn của ứng dụng.
 - Chọn một nền tảng IoT phù hợp có thể tích hợp với Flutter. Một số tùy chọn phổ biến bao gồm Google IoT Core, AWS IoT và Azure IoT.
-- Sử dụng một gói (package) chẳng hạn như “flutter_blue” để kết nối và giao tiếp với các thiết bị IoT.
-- Sử dụng một gói chẳng hạn như “mqtt_client” để xử lý giao thức MQTT (giao thức mạng giữa các máy cho hàng đợi tin nhắn/dịch vụ xếp hàng tin nhắn) để liên lạc giữa ứng dụng Flutter và nền tảng IoT.
+- Sử dụng một gói (package) chẳng hạn như [“flutter_blue”](https://pub.dev/packages/flutter_blue_plus) để kết nối và giao tiếp với các thiết bị IoT.
+- Sử dụng một gói chẳng hạn như [“mqtt_client”](https://pub.dev/packages/mqtt_client) để xử lý giao thức MQTT (giao thức mạng giữa các máy cho hàng đợi tin nhắn/dịch vụ xếp hàng tin nhắn) để liên lạc giữa ứng dụng Flutter và nền tảng IoT.
 - Triển khai chức năng mong muốn của ứng dụng, chẳng hạn như hiển thị dữ liệu cảm biến và gửi lệnh đến thiết bị IoT.
 - Kiểm tra ứng dụng trên cả trình mô phỏng (máy ảo) và thiết bị vật lý (đảm bảo các kết nối như BLE được thực hiện đúng).
 - Cuối cùng, hãy đảm bảo rằng thiết kế, điều hướng và trải nghiệm người dùng là hàng đầu. Và nếu bạn cần thực hiện bất kỳ thay đổi nào, bộ giao diện người dùng Flutter sẽ luôn có ích.
