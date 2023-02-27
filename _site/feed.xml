@@ -1,4 +1,145 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-24T20:13:41+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FlutterIoT</title><subtitle>Phát triển dự án IoT cùng Flutter</subtitle><entry><title type="html">Các nguồn tham khảo hay để học Flutter</title><link href="http://localhost:4000/flutter-reference-resources/" rel="alternate" type="text/html" title="Các nguồn tham khảo hay để học Flutter" /><published>2023-02-24T00:00:00+07:00</published><updated>2023-02-24T00:00:00+07:00</updated><id>http://localhost:4000/flutter-reference-resources</id><content type="html" xml:base="http://localhost:4000/flutter-reference-resources/"><![CDATA[<h1 id="nguồn-tham-khảo-hay-dành-cho-flutter">Nguồn tham khảo hay dành cho Flutter</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-27T17:40:43+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FlutterIoT</title><subtitle>Phát triển dự án IoT cùng Flutter</subtitle><entry><title type="html">10 phím tắt giúp phát triển với Flutter trên VSCode nhanh hơn, hiệu quả hơn</title><link href="http://localhost:4000/flutter-vscode-shortcuts/" rel="alternate" type="text/html" title="10 phím tắt giúp phát triển với Flutter trên VSCode nhanh hơn, hiệu quả hơn" /><published>2023-02-27T00:00:00+07:00</published><updated>2023-02-27T00:00:00+07:00</updated><id>http://localhost:4000/flutter-vscode-shortcuts</id><content type="html" xml:base="http://localhost:4000/flutter-vscode-shortcuts/"><![CDATA[<h1 id="phát-triển-ứng-dụng-với-flutter-trên-visual-studio-code-vscode---nhanh-hơn-hiệu-quả-hơn">Phát triển ứng dụng với Flutter trên Visual Studio Code (VSCode) - Nhanh hơn, hiệu quả hơn</h1>
+
+<p>VSCode là một ứng dụng được Microsoft phát triển, là một IDE tuyệt vời cho lập trình viên, đặt biệt với việc phát triển ứng dụng với Flutter.
+Ngoài VSCode, để lập trình với Flutter và Dart, lập trình viên có thể sử dụng Android Studio hoặc IntelliJ.</p>
+
+<p>VSCode được tôi sử dụng trong quá trình phát triển các dự án, do đó, trong tất cả các bài viết, tôi sẽ tập trung vào VSCode là môi trường phát triển chính.</p>
+
+<p>Sau khi các bạn hoàn thành <a href="https://docs.flutter.dev/development/tools/vs-code">cài đặt theo các bước hướng dẫn cơ bản</a>,việc tiếp theo để nâng cao hiệu suất quá trình làm việc là tìm hiểu và tối ưu quy trình làm việc.</p>
+
+<p>Trong loạt bài về tối ưu và nâng cao hiệu suất làm việc với VSCode, tôi chia ra làm 2 phần:</p>
+
+<p><strong>1. Các phím tắt</strong></p>
+
+<p><strong>2. Các gói mở rộng.</strong></p>
+
+<p>Trong bài viết này sẽ đề cập đến 10 phím tắt mà tôi sử dụng hàng ngày khi lập trình cho các dự án.</p>
+
+<p>Bạn có thể tham khảo nhiều bài viết và video liên quan đến các Tips sử dụng VSCode, dưới đây là danh sách các phím tắt mà tôi thường dùng</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-shortcuts/Flutter-dev-vscode-shortcuts-map.png" alt="Tóm tắt 10 phím tắt" /></p>
+
+<h2 id="các-phím-tắt-thưởng-sử-dụng">Các phím tắt thưởng sử dụng</h2>
+
+<h3 id="1-mở-command-palette">1. Mở Command Palette</h3>
+<ul>
+  <li>MacOS: CMD+Shift+P</li>
+  <li>Windows: CTRL+Shift+P
+Khi nhấn tổ hợp phím này, VSCode sẽ mở ra của sổ để ta có thể thực hiện một số lệnh một cách nhanh chóng, như tạo dự án mới, thêm gói tích hợp vào dự án,…</li>
+</ul>
+
+<p><img src="/assets/images/posts/flutter-vscode-shortcuts/01-show-command-palette.gif" alt="Mở Command Palette" /></p>
+
+<h3 id="2-fix-lỗi-nhanh-quick-fix-actions">2. Fix lỗi nhanh (Quick Fix actions)</h3>
+
+<ul>
+  <li>MacOS: CMD + .</li>
+  <li>Windows: CTRL + .</li>
+</ul>
+
+<p>Bạn có thể thực hiện các lệnh nhanh như tạo Widget bao widget hiện tại (Wrap), tạo Widget con từ code được chọn, đổi vai trò (di chuyển widget được chọn thành parent)</p>
+
+<p>Nội dung hiển thị tuỳ thuộc vào ngữ cảnh mà con trỏ đang có.<br />
+Bạn nên thử nghiệm với nhiều tình huống khác nhau để nắm rõ hơn tổ hợp phím vạn năng này.</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-shortcuts/02-quick-fix.png" alt="Quick-Fix" /></p>
+
+<h3 id="3-tìm-kiếm-file-theo-tên">3. Tìm kiếm file theo tên</h3>
+
+<ul>
+  <li>MacOS: CMD+P</li>
+  <li>Windows: CTRL+P</li>
+</ul>
+
+<p>Khi dự án lớn, có nhiều file, đôi khi gây khó khăn trong việc tìm ra vị trí của file trong thư mục dự án, vì vậy, tổ hợp phím này sẽ giúp bạn nhanh chóng tìm ra file cần thiết.</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-shortcuts/03-search-files-by-name.png" alt="Tìm file theo tên" /></p>
+
+<h3 id="4-mở-nhanh-danh-sách-phím-tắt">4. Mở nhanh danh sách phím tắt</h3>
+
+<ul>
+  <li>MacOS: CMD+K+S</li>
+  <li>Windows: CTRL+K+S</li>
+</ul>
+
+<p>Số lượng phím tắt quá nhiều, trong khi bạn có nhiều thứ phải nhớ và bận tâm hàng ngày, đôi khi chúng ta cũng cần tham khảo thêm các phím tắt khác, bạn có thể mở danh sách các phím tắt với tổ hợp phím trên.</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-shortcuts/04-shorcut-list.png" alt="Danh sách tổ hợp phím tắt" /></p>
+
+<h3 id="5-đổi-tên-rename-symbol">5. Đổi tên (Rename Symbol)</h3>
+
+<ul>
+  <li>MacOS: CMD+R+R</li>
+  <li>Windows: CTRL+R+R</li>
+</ul>
+
+<p>Khi muốn đổi tên biến, hàm, hoặc lớp (Class),… trong nhiều vị trí, nhiều file khác nhau, nếu đổi theo cách thủ công có thể chúng ta sẽ bỏ sót hoặc gây lỗi.
+Vì vậy, tổ hợp phím trên rất có ích. giúp tiết kiệm thời gian và giảm các sai sót.</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-shortcuts/05-rename-symbol.gif" alt="Thay đổi tên" /></p>
+
+<h3 id="6-nhân-đôi-dòng-code-duplicate-line">6. Nhân đôi dòng code (Duplicate line)</h3>
+
+<ul>
+  <li>MacOS: CMD+C -&gt; CMD + V</li>
+  <li>Windows: CTRL+C -&gt; CTRL + V</li>
+</ul>
+
+<p>Ta có thể thực hiện theo cách thông thước là bôi dòng văn bản và chọn Copy/Paste; nhưng với tổ hợp phím trên, bạn không nhất thiết phải chọn hết text trên dòng, chỉ cần đặt con trỏ ở dòng cần nhân đôi.</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-shortcuts/06-duplicate-quick-fix-code.gif" alt="Nhân đôi dòng code" /></p>
+
+<h3 id="7-xem-định-nghĩa-code-hoặc-mã-nguồn-view-quick-source-code">7. Xem định nghĩa code hoặc mã nguồn (View quick source code)</h3>
+
+<ul>
+  <li>CMD + Di chuyển chuột  hoặc click trải</li>
+  <li>CTRL + Di chuyển chuột  hoặc click trải</li>
+</ul>
+
+<p>Tổ hợp phím này giúp quá trình lập trình, nếu có một số nội dung chưa hiểu về hàm, về class, có thể xem nhanh bằng cách nhấn tổ hợp phí trên.</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-shortcuts/07-show-code-hint.gif" alt="Xem nhanh code" /></p>
+
+<h3 id="8-di-chuyển-code-lên-xuống">8. Di chuyển code lên xuống</h3>
+
+<ul>
+  <li>Control + ↑ / ↓</li>
+  <li>Alt + ↑ / ↓</li>
+</ul>
+
+<p><img src="/assets/images/posts/flutter-vscode-shortcuts/08-move-code-up-down.gif" alt="Xem nhanh code" /></p>
+
+<h3 id="9-ẩn-hoặc-hiện-code-comment--uncomment">9. Ẩn hoặc hiện code (Comment / Uncomment)</h3>
+
+<ul>
+  <li>MacOS: CMD + /</li>
+  <li>Windows: CTRL + /</li>
+</ul>
+
+<p>Tổ hợp phím giúp nhanh chóng đánh dấu code có sử dụng hay chỉ là dòng chú thích, code không sử dụng.
+Trong quá trình debug code có thể phải sử dụng phím này để thử từng dòng hoặc cụm code.</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-shortcuts/09-comment.gif" alt="Comment - Umcomment" /></p>
+
+<h3 id="10-tìm-và-thanh-thế-trong-file">10. Tìm và thanh thế trong file</h3>
+
+<ul>
+  <li>MacOS: CMD + F</li>
+  <li>Windows: CTRL + F</li>
+</ul>
+
+<p>Tìm kiếm nhanh chóng trong file</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-shortcuts/10-search-in-file.gif" alt="Tìm kiếm trong file" /></p>
+
+<p>Hy vọng các tổ hợp phím trên hữu ích trong quá trình bạn lập trình. Bạn có thể khám phá thêm nhiều tổ hợp phím khác cũng như các mẹo sử dụng VSCode như trong Link video ở cuối bài.</p>
+
+<p><strong><em>Trong phần 2, chúng ta sẽ tìm hiểu thêm các gói mở rộng (Extension) trong VSCode sẽ giúp ích rất nhiều trong quá trình lập trình với Flutter.</em></strong></p>
+
+<hr />
+<p><a href="https://www.youtube.com/watch?v=ifTF3ags0XI">Các Tips với VSCode - YouTube Video - Fireship.io</a></p>
+
+<hr />]]></content><author><name>dantino</name></author><category term="Flutter" /><category term="Tham khảo" /><summary type="html"><![CDATA[Phát triển ứng dụng với Flutter trên Visual Studio Code (VSCode) - Nhanh hơn, hiệu quả hơn]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/flutter-vscode-shortcuts/flutter-vscode-shortcuts-banner.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/flutter-vscode-shortcuts/flutter-vscode-shortcuts-banner.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Các nguồn tham khảo hay để học Flutter</title><link href="http://localhost:4000/flutter-reference-resources/" rel="alternate" type="text/html" title="Các nguồn tham khảo hay để học Flutter" /><published>2023-02-24T00:00:00+07:00</published><updated>2023-02-24T00:00:00+07:00</updated><id>http://localhost:4000/flutter-reference-resources</id><content type="html" xml:base="http://localhost:4000/flutter-reference-resources/"><![CDATA[<h1 id="nguồn-tham-khảo-hay-dành-cho-flutter">Nguồn tham khảo hay dành cho Flutter</h1>
 
 <p>Để bắt đầu học Flutter, có rất nhiều nguồn tài liệu và khoá học trên internet, dưới đây mình xin liệt kê 3 nguồn chính mà mọi người có thể tìm hiểu về Flutter.</p>
 <h2 id="trang-web-tài-liệu-flutter">Trang web tài liệu Flutter</h2>
@@ -26,7 +167,7 @@
 
 <p><a href="https://fluttergems.dev/"><img src="/assets/images/posts/flutter-reference-resources/flutter-gems.png" alt="Giới thiệu trang FlutterAwesome" /></a></p>
 
-<hr />]]></content><author><name>dantino</name></author><category term="Flutter" /><category term="Tham khảo" /><summary type="html"><![CDATA[Nguồn tham khảo hay dành cho Flutter]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/flutter-reference-resources/flutter-reference-resources.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/flutter-reference-resources/flutter-reference-resources.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Làm thế nào để phát triển dự án IoT với Flutter? (Bài 2)</title><link href="http://localhost:4000/flutter-for-iot-projects-02-copy/" rel="alternate" type="text/html" title="Làm thế nào để phát triển dự án IoT với Flutter? (Bài 2)" /><published>2023-02-20T00:00:00+07:00</published><updated>2023-02-20T00:00:00+07:00</updated><id>http://localhost:4000/flutter-for-iot-projects-02%20copy</id><content type="html" xml:base="http://localhost:4000/flutter-for-iot-projects-02-copy/"><![CDATA[<h1 id="làm-thế-nào-dự-án-iot-phát-triển-thành-công-với-flutter">Làm thế nào dự án IoT phát triển thành công với Flutter?</h1>
+<hr />]]></content><author><name>dantino</name></author><category term="Flutter" /><category term="Tham khảo" /><summary type="html"><![CDATA[Nguồn tham khảo hay dành cho Flutter]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/flutter-reference-resources/flutter-reference-resources.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/flutter-reference-resources/flutter-reference-resources.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Làm thế nào để phát triển dự án IoT với Flutter? (Bài 2)</title><link href="http://localhost:4000/flutter-for-iot-projects-02/" rel="alternate" type="text/html" title="Làm thế nào để phát triển dự án IoT với Flutter? (Bài 2)" /><published>2023-02-20T00:00:00+07:00</published><updated>2023-02-20T00:00:00+07:00</updated><id>http://localhost:4000/flutter-for-iot-projects-02</id><content type="html" xml:base="http://localhost:4000/flutter-for-iot-projects-02/"><![CDATA[<h1 id="làm-thế-nào-dự-án-iot-phát-triển-thành-công-với-flutter">Làm thế nào dự án IoT phát triển thành công với Flutter?</h1>
 <p>Chà, bạn có thể làm theo các bước dưới đây để phát triển ứng dụng dựa trên IoT bằng nền tảng phát triển ứng dụng Flutter.</p>
 
 <ul>
