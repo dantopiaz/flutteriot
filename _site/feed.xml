@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-27T17:40:43+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FlutterIoT</title><subtitle>Phát triển dự án IoT cùng Flutter</subtitle><entry><title type="html">10 phím tắt giúp phát triển với Flutter trên VSCode nhanh hơn, hiệu quả hơn</title><link href="http://localhost:4000/flutter-vscode-shortcuts/" rel="alternate" type="text/html" title="10 phím tắt giúp phát triển với Flutter trên VSCode nhanh hơn, hiệu quả hơn" /><published>2023-02-27T00:00:00+07:00</published><updated>2023-02-27T00:00:00+07:00</updated><id>http://localhost:4000/flutter-vscode-shortcuts</id><content type="html" xml:base="http://localhost:4000/flutter-vscode-shortcuts/"><![CDATA[<h1 id="phát-triển-ứng-dụng-với-flutter-trên-visual-studio-code-vscode---nhanh-hơn-hiệu-quả-hơn">Phát triển ứng dụng với Flutter trên Visual Studio Code (VSCode) - Nhanh hơn, hiệu quả hơn</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-28T15:38:18+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FlutterIoT</title><subtitle>Phát triển dự án IoT cùng Flutter</subtitle><entry><title type="html">10 tiện ích mở rộng giúp phát triển với Flutter trên VSCode nhanh hơn, hiệu quả hơn</title><link href="http://localhost:4000/flutter-vscode-extensions/" rel="alternate" type="text/html" title="10 tiện ích mở rộng giúp phát triển với Flutter trên VSCode nhanh hơn, hiệu quả hơn" /><published>2023-02-28T00:00:00+07:00</published><updated>2023-02-28T00:00:00+07:00</updated><id>http://localhost:4000/flutter-vscode-extensions</id><content type="html" xml:base="http://localhost:4000/flutter-vscode-extensions/"><![CDATA[<h1 id="10-tiện-ích-mở-rộng-trên-vscode-hỗ-trợ-phát-triển-flutter-và-dart">10 tiện ích mở rộng trên VSCode hỗ trợ phát triển Flutter và Dart</h1>
+
+<p>Trong loạt bài về tối ưu và nâng cao hiệu suất làm việc với VSCode, tôi chia ra làm 2 phần:</p>
+
+<p><a href="https://flutteriot.com/flutter-vscode-shortcuts/"><strong>1. Các phím tắt</strong></a></p>
+
+<p><strong>2. Các gói mở rộng</strong></p>
+
+<p><a href="https://flutteriot.com/flutter-vscode-shortcuts/">Bài viết trước</a> chúng ta đã tìm hiểu 10 tổ hợp phím tắt hữu dụng.
+Trong bài viết tiếp theo này sẽ đề cập đến 10 tiện ích mở rộng mà tôi sử dụng hàng ngày khi lập trình cho các dự án.</p>
+
+<h2 id="01-dart-class-generator"><a href="https://marketplace.visualstudio.com/items?itemName=hzgood.dart-data-class-generator">01. Dart Class Generator</a></h2>
+
+<p>Với các Class dạng Data Model và có thể sử dụng với các dạng dữ liệu kiểu json, việc sử dụng tiện ích này rất hữu ích.</p>
+
+<p>Bộ công cụ [Dart Class Generator][class-generator]</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-extensions/01-dart-class-generator.gif" alt="Dart Class Generator" /></p>
+
+<h2 id="02-dart-barrel-file-generator"><a href="https://marketplace.visualstudio.com/items?itemName=miquelddg.dart-barrel-file-generator">02. Dart Barrel File Generator</a></h2>
+
+<p>Khi có nhiều file liên quan, khi sử dụng, có thể phải import nhiều file riêng lẻ, thay vì vậy, chúng ta có thể gọp lại thành 1 file tổng và có thể import để sử dụng.</p>
+
+<p>Bộ công cụ Dart <a href="https://marketplace.visualstudio.com/items?itemName=miquelddg.dart-barrel-file-generator">Barrel File Generator</a> sẽ giúp tạo nhanh file này.</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-extensions/02-dart-barrel-file-generator.gif" alt="Dart Barrel file Generator" /></p>
+
+<h2 id="03-awesome-flutter-snippets"><a href="https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets">03. Awesome Flutter Snippets</a></h2>
+
+<p>Việc tạo file, import và tạp các widget chuẩn là việc thường xuyên trong quá trình lập trình với Flutter, với công cụ này, sẽ tiết kiệm được thời gian rất nhiều bằng việc tạo ra các đoạn code mẫu.</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-extensions/03-flutter-awesome-snippets.gif" alt="Flutter Awesome Snippets" /></p>
+
+<h2 id="04-flutter-riverpod-snippets"><a href="https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets">04. Flutter Riverpod Snippets</a></h2>
+
+<p>Nếu bạn sử dụng Riverpod trong quản lý trạng thái (State Management) thì tiện ích này cũng rất hữu ích, tương tự Flutter Awesome Snippets</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-extensions/04-riverpod-snippets.gif" alt="Riverpod Snippets" /></p>
+
+<h2 id="05-error-lens"><a href="https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens">05. Error Lens</a></h2>
+<p>Trong quá trình lập trình, có thể sẽ có những lỗi liên quan đến đánh máy, Error Lens sẽ giúp gây chú ý cho bạn để nhận ra các lỗi sai</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-extensions/05-error-lens.png" alt="Error Lens" /></p>
+
+<h2 id="06-version-lens"><a href="https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens">06. Version Lens</a></h2>
+
+<p>Trong dự án sử dụng nhiều package đi kèm, theo thời gian, các package này có thể đã lỗi thời, chúng ta có thể sử dụng Verson Lens để kiểm tra và cập nhật kịp thời.</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-extensions/06-version-lens.gif" alt="Version Lens" /></p>
+
+<h2 id="07-better-comments"><a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments">07. Better Comments</a></h2>
+
+<p>Việc ghi chú trong quá trình lập trình rất quan trọng, giúp chúng ta lưu ý hoặc ghi chú một số nội dung quan trọng nào đó.
+Do đó, Better Comments giúp tạo comment một cách nhanh chóng, dễ dàng với các từ khoá khác nhau như: NOTE, FIXME,…</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-extensions/07-better-comments.png" alt="Better Comments" /></p>
+
+<h2 id="08-comment-anchors"><a href="https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors">08. Comment Anchors</a></h2>
+
+<p>Cùng với Better Comments, Comment Anchors cũng giúp theo dõi các comment một cách nhanh chóng</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-extensions/08-comment-anchors.gif" alt="Better Comments" /></p>
+
+<h2 id="09-back--forth"><a href="https://marketplace.visualstudio.com/items?itemName=nick-rudenko.back-n-forth">09. Back &amp; Forth</a></h2>
+
+<p>Khi mở file và thay đổi xem nội dung giữa các file, có thể chúng ta sẽ gặp khó khi muốn trở lại dòng lệnh trước trong file nào đó, Back &amp; Forth giúp công việc này được trở nên nhẹ nhàng hơn.</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-extensions/09-back-and-forth.gif" alt="Back n Forth" /></p>
+
+<h2 id="10-firebase-explorer"><a href="https://marketplace.visualstudio.com/items?itemName=jsayol.firebase-explorer">10. Firebase Explorer</a></h2>
+
+<p>Nếu bạn thường xuyên làm việc với Firebase, thì đây là công cụ rất hữu ích
+giúp bạn có thể xem này Firebase trong VSCode, không cần phải mở Firebase Console trên trình duyệt.</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-extensions/10-firebase-explorer.png" alt="Firebase Explorer" /></p>
+
+<p>File mindmap giới thiệu tổng thể các nội dung 2 bài viết về shortcuts và extensions</p>
+
+<p><img src="/assets/images/posts/flutter-vscode-extensions/vscode-shortcuts-extensions-map.png" alt="mindmap shortcuts và extensions trên vscode" /></p>
+
+<p>Nếu bạn muốn nhận file gỗ định dạng XMind, có thể đăng ký email trong phần bên dưới hoặc gửi email trực tiếp về cho FlutterIoT: flutteriot@gmail.com</p>
+
+<hr />
+<p><a href="https://www.youtube.com/watch?v=ifTF3ags0XI">Các Tips với VSCode - YouTube Video - Fireship.io</a></p>
+
+<hr />]]></content><author><name>dantino</name></author><category term="Flutter" /><category term="Tham khảo" /><summary type="html"><![CDATA[10 tiện ích mở rộng trên VSCode hỗ trợ phát triển Flutter và Dart]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/flutter-vscode-extensions/flutter-vscode-extensions-banner.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/flutter-vscode-extensions/flutter-vscode-extensions-banner.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">10 phím tắt giúp phát triển với Flutter trên VSCode nhanh hơn, hiệu quả hơn</title><link href="http://localhost:4000/flutter-vscode-shortcuts/" rel="alternate" type="text/html" title="10 phím tắt giúp phát triển với Flutter trên VSCode nhanh hơn, hiệu quả hơn" /><published>2023-02-27T00:00:00+07:00</published><updated>2023-02-27T00:00:00+07:00</updated><id>http://localhost:4000/flutter-vscode-shortcuts</id><content type="html" xml:base="http://localhost:4000/flutter-vscode-shortcuts/"><![CDATA[<h1 id="phát-triển-ứng-dụng-với-flutter-trên-visual-studio-code-vscode---nhanh-hơn-hiệu-quả-hơn">Phát triển ứng dụng với Flutter trên Visual Studio Code (VSCode) - Nhanh hơn, hiệu quả hơn</h1>
 
 <p>VSCode là một ứng dụng được Microsoft phát triển, là một IDE tuyệt vời cho lập trình viên, đặt biệt với việc phát triển ứng dụng với Flutter.
 Ngoài VSCode, để lập trình với Flutter và Dart, lập trình viên có thể sử dụng Android Studio hoặc IntelliJ.</p>
@@ -11,13 +96,13 @@ Ngoài VSCode, để lập trình với Flutter và Dart, lập trình viên có
 
 <p><strong>1. Các phím tắt</strong></p>
 
-<p><strong>2. Các gói mở rộng.</strong></p>
+<p><strong>2. Các gói mở rộng (Extension)</strong></p>
 
 <p>Trong bài viết này sẽ đề cập đến 10 phím tắt mà tôi sử dụng hàng ngày khi lập trình cho các dự án.</p>
 
 <p>Bạn có thể tham khảo nhiều bài viết và video liên quan đến các Tips sử dụng VSCode, dưới đây là danh sách các phím tắt mà tôi thường dùng</p>
 
-<p><img src="/assets/images/posts/flutter-vscode-shortcuts/Flutter-dev-vscode-shortcuts-map.png" alt="Tóm tắt 10 phím tắt" /></p>
+<p><img src="/assets/images/posts/flutter-vscode-shortcuts/10-shortcuts.png" alt="Tóm tắt 10 tiện ích mở rộng" /></p>
 
 <h2 id="các-phím-tắt-thưởng-sử-dụng">Các phím tắt thưởng sử dụng</h2>
 
