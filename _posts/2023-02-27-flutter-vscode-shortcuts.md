@@ -20,13 +20,13 @@ Trong loạt bài về tối ưu và nâng cao hiệu suất làm việc với V
 
 **1. Các phím tắt**
 
-**2. Các gói mở rộng.**
+**2. Các gói mở rộng (Extension)**
 
 Trong bài viết này sẽ đề cập đến 10 phím tắt mà tôi sử dụng hàng ngày khi lập trình cho các dự án.
 
 Bạn có thể tham khảo nhiều bài viết và video liên quan đến các Tips sử dụng VSCode, dưới đây là danh sách các phím tắt mà tôi thường dùng
 
-![Tóm tắt 10 phím tắt]({{ site.baseurl }}/assets/images/posts/flutter-vscode-shortcuts/Flutter-dev-vscode-shortcuts-map.png)
+![Tóm tắt 10 tiện ích mở rộng]({{ site.baseurl }}/assets/images/posts/flutter-vscode-shortcuts/10-shortcuts.png)
 
 
 
@@ -143,5 +143,3 @@ Hy vọng các tổ hợp phím trên hữu ích trong quá trình bạn lập t
 
 
 [basic-setup-steps]: https://docs.flutter.dev/development/tools/vs-code
-[flutter-awesome]: https://flutterawesome.com/
-[flutter-gems]: https://fluttergems.dev/
