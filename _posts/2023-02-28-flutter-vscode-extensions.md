@@ -91,6 +91,7 @@ File mindmap giới thiệu tổng thể các nội dung 2 bài viết về shor
 
 ![mindmap shortcuts và extensions trên vscode]({{ site.baseurl }}/assets/images/posts/flutter-vscode-extensions/vscode-shortcuts-extensions-map.png)
 
+Nếu bạn muốn nhận file gỗ định dạng XMind, có thể đăng ký email trong phần bên dưới hoặc gửi email trực tiếp về cho FlutterIoT: flutteriot@gmail.com
 
 
 ---
