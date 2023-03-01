@@ -22,3 +22,8 @@ toc: false
 ![Flutter Roadmap 2023]({{ site.baseurl }}/assets/images/posts/flutter-roadmap-2023/Flutter Roadmap 2023.png)
 
 <div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/tguRaE1c27Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+---
+**Phần roadmap được tạo bằng [Xmind](https://xmind.app/), nếu bạn muốn nhận file xmind, hãy gửi email cho chúng tôi qua trang [liên hệ](https://flutteriot.com/contact.html) như ở đầu trang.***
+
+---
