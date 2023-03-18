@@ -1,4 +1,194 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-01T21:18:17+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FlutterIoT</title><subtitle>Phát triển dự án IoT cùng Flutter</subtitle><entry><title type="html">Flutter Roadmap - Lộ trình trở thành Flutter Dev - 2023</title><link href="http://localhost:4000/flutter-roadmap-2023/" rel="alternate" type="text/html" title="Flutter Roadmap - Lộ trình trở thành Flutter Dev - 2023" /><published>2023-03-01T00:00:00+07:00</published><updated>2023-03-01T00:00:00+07:00</updated><id>http://localhost:4000/flutter-roadmap-2023</id><content type="html" xml:base="http://localhost:4000/flutter-roadmap-2023/"><![CDATA[<h1 id="lộ-trình-để-trở-thành-flutter-developer-trong-năm-2023">Lộ trình để trở thành Flutter Developer trong năm 2023</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-18T13:59:12+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FlutterIoT</title><subtitle>Phát triển dự án IoT cùng Flutter</subtitle><entry><title type="html">Collection trong Dart</title><link href="http://localhost:4000/Dart-Collection/" rel="alternate" type="text/html" title="Collection trong Dart" /><published>2023-03-18T00:00:00+07:00</published><updated>2023-03-18T00:00:00+07:00</updated><id>http://localhost:4000/Dart-Collection</id><content type="html" xml:base="http://localhost:4000/Dart-Collection/"><![CDATA[<h1 id="một-số-điểm-lưu-ý-trong-kiểu-collection-trong-ngôn-ngữ-lập-trình-dart">Một số điểm lưu ý trong kiểu Collection trong ngôn ngữ lập trình Dart</h1>
+
+<h2 id="1-kiểu-list">1. Kiểu List</h2>
+
+<p>Trong ngôn ngữ lập trình Dart, không có kiểu dữ liệu dạng Array nhưng có dạng List.</p>
+
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="c1">// Một số cách khai báo List&lt;T&gt;, trong đó T là kiểu dữ liệu</span>
+  
+    <span class="c1">// 1.  List of int</span>
+    <span class="kd">final</span> <span class="n">intList1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">];</span> <span class="c1">// Trình biên dịch tự nhận dạng kiểu dữ liệu là số int</span>
+  
+    <span class="c1">// 2. empty list of int</span>
+    <span class="c1">//Thêm kiểu biến trong dấu kép &lt;&gt;</span>
+    <span class="kd">final</span> <span class="n">intList2Fixed</span> <span class="o">=</span> <span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;[];</span>
+  
+    <span class="c1">// 3. empty list of int</span>
+    <span class="kd">final</span> <span class="kt">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">intList3</span> <span class="o">=</span> <span class="p">[];</span>
+  
+    <span class="n">intList1</span><span class="o">.</span><span class="na">add</span><span class="p">(</span><span class="mi">4</span><span class="p">);</span> <span class="c1">// thêm phần tử </span>
+    <span class="kd">final</span> <span class="n">len1</span> <span class="o">=</span> <span class="n">intList1</span><span class="o">.</span><span class="na">length</span><span class="p">;</span> <span class="c1">// Lấy số phần tử trong list </span>
+    <span class="n">print</span><span class="p">(</span><span class="n">len1</span><span class="p">);</span> <span class="c1">// Kết quả: 4</span>
+    <span class="n">intList1</span><span class="o">.</span><span class="na">clear</span><span class="p">()</span> <span class="p">;</span><span class="c1">// Xoá list, trở thành list trống</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">intList1</span><span class="o">.</span><span class="na">length</span><span class="p">);</span> <span class="c1">// kết quả: 0</span>
+</code></pre></div></div>
+
+<p>Toán tử mở rộng … có thể được sử dụng để copy 1 list</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">// null list</span>
+    <span class="kt">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span><span class="o">?</span> <span class="n">nullList</span><span class="p">;</span>
+    <span class="c1">//Copy và sử dụng toán tử mở rộng là: ... và ...? (kiểm tra null)</span>
+    <span class="n">intList3</span> <span class="o">=</span> <span class="p">[..</span><span class="o">.</span><span class="na">nullList</span><span class="p">];</span> <span class="c1">// Error</span>
+    <span class="kd">var</span> <span class="n">list3</span> <span class="o">=</span> <span class="p">[...</span><span class="o">?</span><span class="n">nullList</span><span class="p">];</span> <span class="c1">// OK, có kiểm tra null, nullList chỉ được thêm vào nếu không null.</span>
+</code></pre></div></div>
+
+<p>Bạn có thể đặt câu điều kiện trong List để thêm hoặc không thêm, ví dụ:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">final</span> <span class="n">hasTopping</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+  
+    <span class="kd">final</span> <span class="n">drinks</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s">'Hồng trà'</span><span class="p">,</span>
+        <span class="s">'Trà sen'</span><span class="p">,</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">hasTopping</span><span class="p">)</span> <span class="s">'Topping'</span><span class="p">,</span>
+    <span class="p">];</span>
+  
+    <span class="n">print</span><span class="p">(</span><span class="n">drinks</span><span class="p">);</span> <span class="c1">//Kq: [Hồng trà, Trà sen]</span>
+</code></pre></div></div>
+<p>Và:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">final</span> <span class="n">hasTopping</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+    
+    <span class="kd">final</span> <span class="n">drinks</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s">'Hồng trà'</span><span class="p">,</span>
+        <span class="s">'Trà sen'</span><span class="p">,</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">hasTopping</span><span class="p">)</span> <span class="s">'Topping'</span><span class="p">,</span>
+    <span class="p">];</span>
+    
+    <span class="n">print</span><span class="p">(</span><span class="n">drinks</span><span class="p">);</span> <span class="c1">//Kq: [Hồng trà, Trà sen, Topping]</span>
+</code></pre></div></div>
+<p>Trong trường hợp sử dụng const thay vì final, thì trình biên dịch sẽ càng tối hưu khi biên dịch:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">const</span> <span class="n">hasTopping</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+    
+    <span class="kd">final</span> <span class="n">drinks</span> <span class="o">=</span> <span class="kd">const</span> <span class="p">[</span>
+        <span class="s">'Hồng trà'</span><span class="p">,</span>
+        <span class="s">'Trà sen'</span><span class="p">,</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">hasTopping</span><span class="p">)</span> <span class="s">'Topping'</span><span class="p">,</span>
+    <span class="p">];</span>
+
+</code></pre></div></div>
+<p>Bạn cũng có thể áp dụng tương tự cho for</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// tạo list int từ 1-&gt;10</span>
+    <span class="kd">final</span> <span class="n">myNumber</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span><span class="o">=</span> <span class="mi">10</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">i</span>
+    <span class="p">];</span>
+</code></pre></div></div>
+
+<h2 id="2-kiểu-set">2. Kiểu Set</h2>
+<p>Set<T> được sử dụng chứa các phần tử, trong đó, không có phần từ nào trùng lập.
+Ví dụ:</T></p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">// List</span>
+    <span class="kd">var</span> <span class="n">intList</span>  <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">];</span> <span class="c1">// List of int, OK</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">intList</span><span class="p">);</span> <span class="c1">// [1, 2, 3, 1, 2, 3]</span>
+    <span class="c1">// Set</span>
+    <span class="kd">var</span> <span class="n">intSet</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">};</span> <span class="c1">//  tự động loại các phần tử lặp lại</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">intSet</span><span class="p">);</span> <span class="c1">// {1, 2, 3}</span>
+</code></pre></div></div>
+<p><strong>Lưu ý khi khai báo kiểu Set</strong></p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">// 1. Xác định kiểu trực tiếp khi khai báo, int </span>
+    <span class="kt">Set</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">emptySet1</span> <span class="o">=</span> <span class="p">{};</span>
+  
+    <span class="c1">// 2. Kiểu được đặt trước {}</span>
+    <span class="kd">var</span> <span class="n">emptySet2</span> <span class="o">=</span> <span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;{};</span>
+  
+    <span class="c1">// 3. Là Map, không phải Set. Nếu không xác định kiểu dữ liệu, trình biên dịch sẽ hiểu là Map dang dynamic</span>
+    <span class="kd">final</span> <span class="n">emptySet3</span> <span class="o">=</span> <span class="p">{};</span>
+    
+    <span class="n">emptySet1</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">};</span>
+    <span class="n">emptySet2</span><span class="o">.</span><span class="na">addAll</span><span class="p">(</span><span class="n">emptySet1</span><span class="p">);</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">emptySet2</span><span class="p">);</span> <span class="c1">//{1, 2, 3}</span>
+    <span class="n">emptySet2</span><span class="o">.</span><span class="na">addAll</span><span class="p">([</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]);</span> <span class="c1">// thêm nhiều thành phần, thì phải đặt dạng mảng,[ ]</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">emptySet2</span><span class="p">);</span> <span class="c1">// {1, 2, 3, 4, 5, 6}</span>
+    <span class="kd">final</span> <span class="n">set3</span> <span class="o">=</span> <span class="p">{</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">};</span>
+    <span class="n">emptySet2</span> <span class="o">=</span> <span class="p">{..</span><span class="o">.</span><span class="na">set3</span><span class="p">};</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">emptySet2</span><span class="p">);</span> <span class="c1">// {6, 7, 8}</span>
+
+</code></pre></div></div>
+<p>Set<T> cũng hỗ trợ các toán tử ... và ...? như với List<T>; đồng thời bạn cũng có thể sử dụng if và for tương tự với List.</T></T></p>
+
+<h2 id="3-kiểu-map">3. Kiểu Map</h2>
+
+<p>Còn được biết đến như dạng dictionary, Map&lt;K,V&gt; là dạng lưu dữ liệu theo kiểu key-value (từ khoá - giá trị)</p>
+
+<p>Ví dụ:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">final</span> <span class="kt">Map</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">String</span><span class="p">&gt;</span>  <span class="n">m</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="mi">0</span><span class="o">:</span> <span class="s">'Trà sữa'</span><span class="p">,</span>
+        <span class="mi">1</span><span class="o">:</span> <span class="s">'Cafe'</span><span class="p">,</span>
+        <span class="mi">2</span><span class="o">:</span> <span class="s">'Nước ngọt'</span><span class="p">,</span>
+    <span class="p">}</span>
+</code></pre></div></div>
+<p>Bạn có thể sử dụng <code class="language-plaintext highlighter-rouge">putIfAbsent</code> để thêm phần từ vào map nếu chưa có trong map</p>
+
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">// Vì key = 0 đã tồn tại, nên sẽ KHÔNG thêm "Nước trái cây"</span>
+    <span class="n">m</span><span class="o">.</span><span class="na">putIfAbsent</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="p">()</span> <span class="o">=</span><span class="p">&gt;</span> <span class="s">'Nước trái cây'</span><span class="p">);</span> 
+
+    <span class="c1">// Vì key = 3 chưa tồn tại, nên sẽ  thêm "Nước trái cây"</span>
+    <span class="n">m</span><span class="o">.</span><span class="na">putIfAbsent</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="p">()</span> <span class="o">=</span><span class="p">&gt;</span> <span class="s">'Nước trái cây'</span><span class="p">);</span> 
+</code></pre></div></div>
+
+<p>Thêm hoặc cập nhật phần tử của map:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">// Nếu phần tử đã có, thì giá trị sẽ được cập nhật</span>
+    <span class="c1">// Vị trí key = 0 là "Trà sữa" sẽ bị thay bằng "Trà đào"</span>
+    <span class="n">m</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s">'Trà đào'</span><span class="p">;</span>
+
+    <span class="c1">// Nếu phần tử chưa có, giá trị sẽ được thêm vào</span>
+    <span class="c1">// Key = 4 chưa có, nên "Trà đá" được thêm vào ở key = 4</span>
+    <span class="n">m</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="s">'Trà đá'</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>Truy cập phần tử của map:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">final</span> <span class="n">mon</span> <span class="o">=</span> <span class="n">m</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="p">;</span> <span class="c1">// mon = 'Trà sữa'</span>
+    <span class="kd">final</span> <span class="n">mon1</span> <span class="o">=</span> <span class="n">m</span><span class="p">[</span><span class="mi">5</span><span class="p">];</span> <span class="c1">// mon1 = null, vì chưa có trong map </span>
+
+    <span class="c1">// Tốt nhất nên kiểm tra trước khi truy cập giá trị</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">containKey</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">print</span><span class="p">(</span><span class="n">m</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="p">;</span> <span class="c1">// 'Nước ngọt'</span>
+    <span class="p">}</span>
+
+</code></pre></div></div>
+
+<h2 id="lưu-ý-khi-áp-dụng">Lưu ý khi áp dụng</h2>
+
+<p>List có 2 hàm đang lưu ý khi sử dụng: <code class="language-plaintext highlighter-rouge">reduce()</code> và <code class="language-plaintext highlighter-rouge">fold()</code></p>
+
+<p>Cơ bản, 2 hàm này hoạt động tương tự nhau, nhưng <code class="language-plaintext highlighter-rouge">fold()</code> đòi hỏi giá trị bắt đầu</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">final</span> <span class="n">list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">];</span>
+  
+    <span class="c1">// reduce((a,b) =&gt; c)</span>
+    <span class="kd">final</span> <span class="n">sum</span> <span class="o">=</span> <span class="n">list</span><span class="o">.</span><span class="na">reduce</span><span class="p">((</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">);</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">sum</span><span class="p">);</span> <span class="c1">// 15</span>
+  
+    <span class="c1">//fold(initValue, (a,b) =&gt; c)</span>
+    <span class="kd">final</span> <span class="n">sumFold1</span> <span class="o">=</span> <span class="n">list</span><span class="o">.</span><span class="na">fold</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">);</span>
+    <span class="kd">final</span> <span class="n">sumFold2</span> <span class="o">=</span> <span class="n">list</span><span class="o">.</span><span class="na">fold</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">);</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">sumFold1</span><span class="p">);</span> <span class="c1">// 15</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">sumFold2</span><span class="p">);</span> <span class="c1">// 25</span>
+</code></pre></div></div>
+<p>Trong khi <code class="language-plaintext highlighter-rouge">reduce()</code> đòi hỏi cùng kiểu dữ liệu</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="n">T</span> <span class="nf">reduce</span><span class="p">(</span>
+        <span class="n">T</span> <span class="n">combine</span><span class="p">(</span><span class="n">T</span> <span class="n">value</span><span class="p">,</span> <span class="n">T</span> <span class="n">element</span><span class="p">)</span>
+<span class="p">)</span> 
+</code></pre></div></div>
+
+<p>Thì <code class="language-plaintext highlighter-rouge">fold()</code> cho phép 2 kiểu dữ liệu khác nhau</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="n">T</span> <span class="nf">fold</span><span class="p">(</span>
+    <span class="n">T</span> <span class="n">initialValue</span><span class="p">,</span>
+    <span class="n">T</span> <span class="n">combine</span><span class="p">(</span><span class="n">T</span> <span class="n">previousValue</span><span class="p">,</span> <span class="n">E</span> <span class="n">element</span><span class="p">)</span>
+<span class="p">)</span> 
+</code></pre></div></div>
+
+<p>Ví dụ:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">final</span> <span class="n">str</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Welcome'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">,</span> <span class="s">'Flutter'</span><span class="p">];</span>
+    <span class="kd">final</span> <span class="n">sumStr</span> <span class="o">=</span> <span class="n">str</span><span class="o">.</span><span class="na">reduce</span><span class="p">((</span><span class="kt">String</span> <span class="n">a</span><span class="p">,</span> <span class="kt">String</span> <span class="n">b</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">);</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">sumStr</span><span class="p">);</span> <span class="c1">// WelcometoFlutter</span>
+  
+    <span class="c1">//Lỗi vì reduce đòi hỏi cùng kiểu dữ liệu</span>
+    <span class="kd">final</span> <span class="n">sumStr2</span> <span class="o">=</span> <span class="n">str</span><span class="o">.</span><span class="na">reduce</span><span class="p">((</span><span class="kt">String</span> <span class="n">a</span><span class="p">,</span> <span class="kt">String</span> <span class="n">b</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">a</span><span class="o">.</span><span class="na">length</span> <span class="o">+</span> <span class="n">b</span><span class="o">.</span><span class="na">length</span><span class="p">);</span>
+  
+    <span class="c1">// fold cho  phép trên các kiểu dữ liệu khác nhau</span>
+    <span class="kd">final</span> <span class="kt">int</span> <span class="n">sumStrFold</span> <span class="o">=</span> <span class="n">str</span><span class="o">.</span><span class="na">fold</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;(</span><span class="mi">0</span><span class="p">,</span> <span class="p">(</span><span class="kt">int</span> <span class="n">count</span><span class="p">,</span> <span class="kt">String</span> <span class="n">b</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">count</span><span class="o">+</span> <span class="n">b</span><span class="o">.</span><span class="na">length</span><span class="p">);</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">sumStrFold</span><span class="p">);</span> <span class="c1">// 16</span>
+</code></pre></div></div>
+
+<p>Để hiểu rõ hơn và thử các nội dung trên, bạn có thể sử dụng <a href="https://dartpad.dev">DartPad</a>.</p>]]></content><author><name>dantino</name></author><category term="Flutter" /><category term="featured" /><summary type="html"><![CDATA[Một số điểm lưu ý trong kiểu Collection trong ngôn ngữ lập trình Dart]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/posts/dart-collections/dart-collections.png" /><media:content medium="image" url="http://localhost:4000/assets/images/posts/dart-collections/dart-collections.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Flutter Roadmap - Lộ trình trở thành Flutter Dev - 2023</title><link href="http://localhost:4000/flutter-roadmap-2023/" rel="alternate" type="text/html" title="Flutter Roadmap - Lộ trình trở thành Flutter Dev - 2023" /><published>2023-03-01T00:00:00+07:00</published><updated>2023-03-01T00:00:00+07:00</updated><id>http://localhost:4000/flutter-roadmap-2023</id><content type="html" xml:base="http://localhost:4000/flutter-roadmap-2023/"><![CDATA[<h1 id="lộ-trình-để-trở-thành-flutter-developer-trong-năm-2023">Lộ trình để trở thành Flutter Developer trong năm 2023</h1>
 
 <p>Để trở thành lập trình viên Flutter, bạn có đang:</p>
 
