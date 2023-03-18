@@ -4,27 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Flutter trong các dự án IoT (Bài 1) | FlutterIoT</title>
+    <title>Collection trong Dart | FlutterIoT</title>
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Flutter trong các dự án IoT (Bài 1) | FlutterIoT</title>
+<title>Collection trong Dart | FlutterIoT</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="Flutter trong các dự án IoT (Bài 1)" />
+<meta property="og:title" content="Collection trong Dart" />
 <meta name="author" content="dantino" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Sử dụng Flutter trong dự án IoT (Internet of Things - Internet vạn vật) Ngày nay, công nghệ đang thâm nhập vào mọi khía cạnh của cuộc sống. Ví dụ: ngày nay, bạn có thể kết nối và vận hành máy điều hòa của mình bằng điện thoại di động. Điều này là do Internet cho phép hai địa chỉ IP có sự trao đổi thông tin và dữ liệu." />
-<meta property="og:description" content="Sử dụng Flutter trong dự án IoT (Internet of Things - Internet vạn vật) Ngày nay, công nghệ đang thâm nhập vào mọi khía cạnh của cuộc sống. Ví dụ: ngày nay, bạn có thể kết nối và vận hành máy điều hòa của mình bằng điện thoại di động. Điều này là do Internet cho phép hai địa chỉ IP có sự trao đổi thông tin và dữ liệu." />
-<link rel="canonical" href="http://localhost:4000/flutter-for-iot-projects-01/" />
-<meta property="og:url" content="http://localhost:4000/flutter-for-iot-projects-01/" />
+<meta name="description" content="Một số điểm lưu ý trong kiểu Collection trong ngôn ngữ lập trình Dart" />
+<meta property="og:description" content="Một số điểm lưu ý trong kiểu Collection trong ngôn ngữ lập trình Dart" />
+<link rel="canonical" href="http://localhost:4000/Dart-Collection/" />
+<meta property="og:url" content="http://localhost:4000/Dart-Collection/" />
 <meta property="og:site_name" content="FlutterIoT" />
-<meta property="og:image" content="http://localhost:4000/assets/images/posts/iot-flutter-01/Flutter-IoT-Post-Cover-01.jpg" />
+<meta property="og:image" content="http://localhost:4000/assets/images/posts/dart-collections/dart-collections.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-02-12T00:00:00+07:00" />
+<meta property="article:published_time" content="2023-03-18T00:00:00+07:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="http://localhost:4000/assets/images/posts/iot-flutter-01/Flutter-IoT-Post-Cover-01.jpg" />
-<meta property="twitter:title" content="Flutter trong các dự án IoT (Bài 1)" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/posts/dart-collections/dart-collections.png" />
+<meta property="twitter:title" content="Collection trong Dart" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"dantino"},"dateModified":"2023-02-12T00:00:00+07:00","datePublished":"2023-02-12T00:00:00+07:00","description":"Sử dụng Flutter trong dự án IoT (Internet of Things - Internet vạn vật) Ngày nay, công nghệ đang thâm nhập vào mọi khía cạnh của cuộc sống. Ví dụ: ngày nay, bạn có thể kết nối và vận hành máy điều hòa của mình bằng điện thoại di động. Điều này là do Internet cho phép hai địa chỉ IP có sự trao đổi thông tin và dữ liệu.","headline":"Flutter trong các dự án IoT (Bài 1)","image":"http://localhost:4000/assets/images/posts/iot-flutter-01/Flutter-IoT-Post-Cover-01.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/flutter-for-iot-projects-01/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"dantino"},"url":"http://localhost:4000/flutter-for-iot-projects-01/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"dantino"},"dateModified":"2023-03-18T00:00:00+07:00","datePublished":"2023-03-18T00:00:00+07:00","description":"Một số điểm lưu ý trong kiểu Collection trong ngôn ngữ lập trình Dart","headline":"Collection trong Dart","image":"http://localhost:4000/assets/images/posts/dart-collections/dart-collections.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Dart-Collection/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"dantino"},"url":"http://localhost:4000/Dart-Collection/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -271,22 +271,18 @@ function lunr_search(term) {
 						
                           <a class="sscroll text-danger" href="/categories.html#flutter">flutter</a><span class="sep">, </span>
                         
-                          <a class="sscroll text-danger" href="/categories.html#iot">iot</a><span class="sep">, </span>
-                        
-                          <a class="sscroll text-danger" href="/categories.html#công nghệ">công nghệ</a><span class="sep">, </span>
-                        
                         </span>
 					</p>
-					<h1 class="display-4 mb-4 article-headline">Flutter trong các dự án IoT (Bài 1)</h1>
+					<h1 class="display-4 mb-4 article-headline">Collection trong Dart</h1>
 					<div class="d-flex align-items-center">
                         
                         <img class="rounded-circle" src="/assets/images/dantino-avatar.jpeg" alt="Tống V.T. Dân" width="70"/>
                         
 						<small class="ml-3"> Tống V.T. Dân <span><a target="_blank" href="https://twitter.com/dantopiavn" class="btn btn-outline-success btn-sm btn-round ml-1">Theo dõi</a></span>
-                            <span class="text-muted d-block mt-1">Feb 12, 2023 · <span class="reading-time">
+                            <span class="text-muted d-block mt-1">Mar 18, 2023 · <span class="reading-time">
   
   
-    8 phút đọc
+    9 phút đọc
   
 </span>
     </span>
@@ -295,7 +291,7 @@ function lunr_search(term) {
 				</div>
                 
 				<div class="col-md-6 pr-0 align-self-center">
-					<img class="rounded" src="/assets/images/posts/iot-flutter-01/Flutter-IoT-Post-Cover-01.jpg" alt="Flutter trong các dự án IoT (Bài 1)">
+					<img class="rounded" src="/assets/images/posts/dart-collections/dart-collections.png" alt="Collection trong Dart">
 				</div>
                 
 			</div>
@@ -317,21 +313,12 @@ function lunr_search(term) {
 			<div class="toc mt-4 mb-4 lead">
 				<h4>Tóm tắt</h4>
 				<ul>
-  <li><a href="#sử-dụng-flutter-trong-dự-án-iot-internet-of-things---internet-vạn-vật">Sử dụng Flutter trong dự án IoT (Internet of Things - Internet vạn vật)</a>
+  <li><a href="#một-số-điểm-lưu-ý-trong-kiểu-collection-trong-ngôn-ngữ-lập-trình-dart">Một số điểm lưu ý trong kiểu Collection trong ngôn ngữ lập trình Dart</a>
     <ul>
-      <li><a href="#flutter-là-gì">Flutter là gì?</a></li>
-      <li><a href="#tại-sao-sử-dụng-flutter-cho-iot">Tại sao sử dụng Flutter cho IoT?</a>
-        <ul>
-          <li><a href="#1-tạo-mẫu-dễ-dàng-hơn">#1 Tạo mẫu dễ dàng hơn</a></li>
-          <li><a href="#2-giải-pháp-đa-nền-tảng">#2 Giải pháp đa nền tảng</a></li>
-          <li><a href="#3-năng-suất-cao">#3 Năng suất cao</a></li>
-          <li><a href="#4-hiệu-suất-như-trên-nền-tảng-gốc">#4 Hiệu suất như trên nền tảng gốc</a></li>
-          <li><a href="#5-phát-triển-liền-mạch">#5 Phát triển liền mạch</a></li>
-          <li><a href="#6-giai-diện-người-dùng-có-thể-tuỳ-chỉnh">#6 Giai diện người dùng có thể tuỳ chỉnh</a></li>
-          <li><a href="#7-giảm-chi-phí-phát-triển">#7 Giảm chi phí phát triển</a></li>
-          <li><a href="#8-trải-nghiệm-giống-nhau-trên-các-thiết-bị">#8 Trải nghiệm giống nhau trên các thiết bị</a></li>
-        </ul>
-      </li>
+      <li><a href="#1-kiểu-list">1. Kiểu List</a></li>
+      <li><a href="#2-kiểu-set">2. Kiểu Set</a></li>
+      <li><a href="#3-kiểu-map">3. Kiểu Map</a></li>
+      <li><a href="#lưu-ý-khi-áp-dụng">Lưu ý khi áp dụng</a></li>
     </ul>
   </li>
 </ul>
@@ -345,97 +332,197 @@ function lunr_search(term) {
             <!-- Article -->
 			<article class="article-post">        
 				
-			<h1 id="sử-dụng-flutter-trong-dự-án-iot-internet-of-things---internet-vạn-vật">Sử dụng Flutter trong dự án IoT (Internet of Things - Internet vạn vật)</h1>
-<p>Ngày nay, công nghệ đang thâm nhập vào mọi khía cạnh của cuộc sống. Ví dụ: ngày nay, bạn có thể kết nối và vận hành máy điều hòa của mình bằng điện thoại di động. Điều này là do Internet cho phép hai địa chỉ IP có sự trao đổi thông tin và dữ liệu.</p>
+			<h1 id="một-số-điểm-lưu-ý-trong-kiểu-collection-trong-ngôn-ngữ-lập-trình-dart">Một số điểm lưu ý trong kiểu Collection trong ngôn ngữ lập trình Dart</h1>
 
-<p>Nhu cầu về các thiết bị hỗ trợ IoT đang tăng lên. Một số lượng lớn các doanh nghiệp đang đặt niềm tin vào các thiết bị IoT và điều đó dẫn đến nhu cầu ngày càng tăng đối với các ứng dụng IoT. Vì có nhu cầu rất lớn về ứng dụng IoT, nên các doanh nghiệp muốn có một nền tảng phát triển ứng dụng mạnh mẽ để phát triển ứng dụng IoT của họ.</p>
+<h2 id="1-kiểu-list">1. Kiểu List</h2>
 
-<p>Các thương hiệu lớn như BWM, iRobot, ByteDance, Alibaba,… đang sử dụng Flutter cho các ứng dụng dành cho thiết bị di động của họ nên Flutter đã đạt được cả tên tuổi và sự công nhận trong vài năm qua.</p>
+<p>Trong ngôn ngữ lập trình Dart, không có kiểu dữ liệu dạng Array nhưng có dạng List.</p>
 
-<p><img src="/assets/images/posts/iot-flutter-01/iot-love-flutter-companies-use-flutter.jpeg" alt="Flutter sử dụng trong các công ty" />
- Xem thêm các công ty đang sử dụng Flutter <a href="https://flutter.dev/showcase">tại đây</a></p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    <span class="c1">// Một số cách khai báo List&lt;T&gt;, trong đó T là kiểu dữ liệu</span>
+  
+    <span class="c1">// 1.  List of int</span>
+    <span class="kd">final</span> <span class="n">intList1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">];</span> <span class="c1">// Trình biên dịch tự nhận dạng kiểu dữ liệu là số int</span>
+  
+    <span class="c1">// 2. empty list of int</span>
+    <span class="c1">//Thêm kiểu biến trong dấu kép &lt;&gt;</span>
+    <span class="kd">final</span> <span class="n">intList2Fixed</span> <span class="o">=</span> <span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;[];</span>
+  
+    <span class="c1">// 3. empty list of int</span>
+    <span class="kd">final</span> <span class="kt">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">intList3</span> <span class="o">=</span> <span class="p">[];</span>
+  
+    <span class="n">intList1</span><span class="o">.</span><span class="na">add</span><span class="p">(</span><span class="mi">4</span><span class="p">);</span> <span class="c1">// thêm phần tử </span>
+    <span class="kd">final</span> <span class="n">len1</span> <span class="o">=</span> <span class="n">intList1</span><span class="o">.</span><span class="na">length</span><span class="p">;</span> <span class="c1">// Lấy số phần tử trong list </span>
+    <span class="n">print</span><span class="p">(</span><span class="n">len1</span><span class="p">);</span> <span class="c1">// Kết quả: 4</span>
+    <span class="n">intList1</span><span class="o">.</span><span class="na">clear</span><span class="p">()</span> <span class="p">;</span><span class="c1">// Xoá list, trở thành list trống</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">intList1</span><span class="o">.</span><span class="na">length</span><span class="p">);</span> <span class="c1">// kết quả: 0</span>
+</code></pre></div></div>
 
-<p>Mục đích của bài viết này này là chỉ ra những ưu điểm của việc sử dụng Flutter cho các ứng dụng IoT và nó ảnh hưởng như thế nào đến quá trình phát triển ứng dụng IoT nói chung. Tuy nhiên, trước khi chúng ta chuyển sang những lợi ích của việc chọn Flutter để phát triển ứng dụng IoT, hãy cùng tìm hiểu tổng quan về nền tảng Flutter và xem điều gì khiến nó trở nên phổ biến trong ngành.</p>
-<h2 id="flutter-là-gì">Flutter là gì?</h2>
-<p>Flutter là một nền tảng phát triển phần mềm phổ biến của Google. Nó cho phép tạo các ứng dụng đa nền tảng cho thiết bị di động, web và máy tính để bàn. Điều đáng kể nhất về Flutter là nó là một nền tảng mã nguồn mở và dễ học. Nhiều tính năng mạnh mẽ của Flutter làm cho nó trở thành một nền tảng phù hợp cho các công ty khởi nghiệp và phát triển ứng dụng quy mô lớn và nhỏ.</p>
+<p>Toán tử mở rộng … có thể được sử dụng để copy 1 list</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">// null list</span>
+    <span class="kt">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span><span class="o">?</span> <span class="n">nullList</span><span class="p">;</span>
+    <span class="c1">//Copy và sử dụng toán tử mở rộng là: ... và ...? (kiểm tra null)</span>
+    <span class="n">intList3</span> <span class="o">=</span> <span class="p">[..</span><span class="o">.</span><span class="na">nullList</span><span class="p">];</span> <span class="c1">// Error</span>
+    <span class="kd">var</span> <span class="n">list3</span> <span class="o">=</span> <span class="p">[...</span><span class="o">?</span><span class="n">nullList</span><span class="p">];</span> <span class="c1">// OK, có kiểm tra null, nullList chỉ được thêm vào nếu không null.</span>
+</code></pre></div></div>
 
-<p>Flutter cho phép phát triển ứng dụng cho nhiều hệ điều hành với một cơ sở mã duy nhất mà không ảnh hưởng đến hiệu suất và bảo mật. Flutter sử dụng ngôn ngữ lập trình Dart , tập trung vào phát triển giao diện người dùng với các tính năng nổi bật.</p>
+<p>Bạn có thể đặt câu điều kiện trong List để thêm hoặc không thêm, ví dụ:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">final</span> <span class="n">hasTopping</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+  
+    <span class="kd">final</span> <span class="n">drinks</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s">'Hồng trà'</span><span class="p">,</span>
+        <span class="s">'Trà sen'</span><span class="p">,</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">hasTopping</span><span class="p">)</span> <span class="s">'Topping'</span><span class="p">,</span>
+    <span class="p">];</span>
+  
+    <span class="n">print</span><span class="p">(</span><span class="n">drinks</span><span class="p">);</span> <span class="c1">//Kq: [Hồng trà, Trà sen]</span>
+</code></pre></div></div>
+<p>Và:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">final</span> <span class="n">hasTopping</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+    
+    <span class="kd">final</span> <span class="n">drinks</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s">'Hồng trà'</span><span class="p">,</span>
+        <span class="s">'Trà sen'</span><span class="p">,</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">hasTopping</span><span class="p">)</span> <span class="s">'Topping'</span><span class="p">,</span>
+    <span class="p">];</span>
+    
+    <span class="n">print</span><span class="p">(</span><span class="n">drinks</span><span class="p">);</span> <span class="c1">//Kq: [Hồng trà, Trà sen, Topping]</span>
+</code></pre></div></div>
+<p>Trong trường hợp sử dụng const thay vì final, thì trình biên dịch sẽ càng tối hưu khi biên dịch:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">const</span> <span class="n">hasTopping</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+    
+    <span class="kd">final</span> <span class="n">drinks</span> <span class="o">=</span> <span class="kd">const</span> <span class="p">[</span>
+        <span class="s">'Hồng trà'</span><span class="p">,</span>
+        <span class="s">'Trà sen'</span><span class="p">,</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">hasTopping</span><span class="p">)</span> <span class="s">'Topping'</span><span class="p">,</span>
+    <span class="p">];</span>
 
-<p><strong>Các tính năng nổi bật của Flutter:</strong></p>
+</code></pre></div></div>
+<p>Bạn cũng có thể áp dụng tương tự cho for</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// tạo list int từ 1-&gt;10</span>
+    <span class="kd">final</span> <span class="n">myNumber</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span><span class="o">=</span> <span class="mi">10</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="n">i</span>
+    <span class="p">];</span>
+</code></pre></div></div>
 
-<ul>
-  <li>Nền tảng mã nguồn mở</li>
-  <li>Tính năng tải lại nóng (Hot Reload)</li>
-  <li>Widget phong phú</li>
-  <li>Lập trình một lần cho tất cả các nền tảng</li>
-  <li>Hỗ trợ Firebase của Google</li>
-  <li>Phát triển ứng dụng nhanh</li>
-  <li>Học tập dễ dàng</li>
-  <li>Hỗ trợ cộng đồng vững chắc</li>
-</ul>
+<h2 id="2-kiểu-set">2. Kiểu Set</h2>
+<p>Set<T> được sử dụng chứa các phần tử, trong đó, không có phần từ nào trùng lập.
+Ví dụ:</T></p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">// List</span>
+    <span class="kd">var</span> <span class="n">intList</span>  <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">];</span> <span class="c1">// List of int, OK</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">intList</span><span class="p">);</span> <span class="c1">// [1, 2, 3, 1, 2, 3]</span>
+    <span class="c1">// Set</span>
+    <span class="kd">var</span> <span class="n">intSet</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">};</span> <span class="c1">//  tự động loại các phần tử lặp lại</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">intSet</span><span class="p">);</span> <span class="c1">// {1, 2, 3}</span>
+</code></pre></div></div>
+<p><strong>Lưu ý khi khai báo kiểu Set</strong></p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">// 1. Xác định kiểu trực tiếp khi khai báo, int </span>
+    <span class="kt">Set</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">emptySet1</span> <span class="o">=</span> <span class="p">{};</span>
+  
+    <span class="c1">// 2. Kiểu được đặt trước {}</span>
+    <span class="kd">var</span> <span class="n">emptySet2</span> <span class="o">=</span> <span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;{};</span>
+  
+    <span class="c1">// 3. Là Map, không phải Set. Nếu không xác định kiểu dữ liệu, trình biên dịch sẽ hiểu là Map dang dynamic</span>
+    <span class="kd">final</span> <span class="n">emptySet3</span> <span class="o">=</span> <span class="p">{};</span>
+    
+    <span class="n">emptySet1</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">};</span>
+    <span class="n">emptySet2</span><span class="o">.</span><span class="na">addAll</span><span class="p">(</span><span class="n">emptySet1</span><span class="p">);</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">emptySet2</span><span class="p">);</span> <span class="c1">//{1, 2, 3}</span>
+    <span class="n">emptySet2</span><span class="o">.</span><span class="na">addAll</span><span class="p">([</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]);</span> <span class="c1">// thêm nhiều thành phần, thì phải đặt dạng mảng,[ ]</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">emptySet2</span><span class="p">);</span> <span class="c1">// {1, 2, 3, 4, 5, 6}</span>
+    <span class="kd">final</span> <span class="n">set3</span> <span class="o">=</span> <span class="p">{</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">};</span>
+    <span class="n">emptySet2</span> <span class="o">=</span> <span class="p">{..</span><span class="o">.</span><span class="na">set3</span><span class="p">};</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">emptySet2</span><span class="p">);</span> <span class="c1">// {6, 7, 8}</span>
 
-<h2 id="tại-sao-sử-dụng-flutter-cho-iot">Tại sao sử dụng Flutter cho IoT?</h2>
-<p>Bây giờ chúng ta hãy đi vào cốt lõi của bài viết này và tìm hiểu đó là gì. Vì vậy, chúng tôi biết rõ rằng Flutter được sử dụng để phát triển ứng dụng IoT nhưng bạn có thắc mắc tại sao không? Nếu có, đừng lo lắng; chúng tôi sẽ tìm ra nó trong bài này. Chúng tôi sẽ thảo luận về lợi ích của việc sử dụng Flutter để phát triển ứng dụng IoT và cố gắng giải tỏa những nghi ngờ của bạn bằng những lý do chính đáng. Vì vậy, chúng ta sẽ bắt đầu ngay chứ?
-<img src="/assets/images/posts/iot-flutter-01/iot-love-flutter-why-flutter-for-iot.jpeg" alt="Tại sao Flutter trong IoT" /></p>
+</code></pre></div></div>
+<p>Set<T> cũng hỗ trợ các toán tử ... và ...? như với List<T>; đồng thời bạn cũng có thể sử dụng if và for tương tự với List.</T></T></p>
 
-<h3 id="1-tạo-mẫu-dễ-dàng-hơn">#1 Tạo mẫu dễ dàng hơn</h3>
+<h2 id="3-kiểu-map">3. Kiểu Map</h2>
 
-<p>Tạo mẫu ứng dụng là điều cần thiết để hình dung ứng dụng của bạn và đẩy nhanh quá trình phát triển. Với các ứng dụng IoT, bạn cần xây dựng bằng chứng về khái niệm trước khi bắt đầu. Nền tảng Flutter đảm bảo bạn phát hành các mô hình PoC (Prototype of Concept) IoT nhanh hơn các nền tảng khác. Bạn sẽ biết liệu ý tưởng đó có khả thi hay không và có thể rút ngắn thời gian đưa bạn ra thị trường hay không.</p>
+<p>Còn được biết đến như dạng dictionary, Map&lt;K,V&gt; là dạng lưu dữ liệu theo kiểu key-value (từ khoá - giá trị)</p>
 
-<h3 id="2-giải-pháp-đa-nền-tảng">#2 Giải pháp đa nền tảng</h3>
+<p>Ví dụ:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">final</span> <span class="kt">Map</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">String</span><span class="p">&gt;</span>  <span class="n">m</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="mi">0</span><span class="o">:</span> <span class="s">'Trà sữa'</span><span class="p">,</span>
+        <span class="mi">1</span><span class="o">:</span> <span class="s">'Cafe'</span><span class="p">,</span>
+        <span class="mi">2</span><span class="o">:</span> <span class="s">'Nước ngọt'</span><span class="p">,</span>
+    <span class="p">}</span>
+</code></pre></div></div>
+<p>Bạn có thể sử dụng <code class="language-plaintext highlighter-rouge">putIfAbsent</code> để thêm phần từ vào map nếu chưa có trong map</p>
 
-<p>Vì Flutter cho phép sử dụng cùng một cơ sở mã nguồn để phát triển ứng dụng cho nhiều nền tảng (iOS, Android, Desktop, Web), các nhà phát triển có thể sử dụng một cơ sở mã duy nhất để phát triển ứng dụng IoT cho các hệ điều hành khác nhau.</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">// Vì key = 0 đã tồn tại, nên sẽ KHÔNG thêm "Nước trái cây"</span>
+    <span class="n">m</span><span class="o">.</span><span class="na">putIfAbsent</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="p">()</span> <span class="o">=</span><span class="p">&gt;</span> <span class="s">'Nước trái cây'</span><span class="p">);</span> 
 
-<p>Hơn nữa, Flutter cũng là một framework rất được ưa thích để phát triển MVP. Nếu nguyên mẫu của ứng dụng đã sẵn sàng, việc phát triển ứng dụng IoT với Flutter trở nên thực sự đơn giản.</p>
+    <span class="c1">// Vì key = 3 chưa tồn tại, nên sẽ  thêm "Nước trái cây"</span>
+    <span class="n">m</span><span class="o">.</span><span class="na">putIfAbsent</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="p">()</span> <span class="o">=</span><span class="p">&gt;</span> <span class="s">'Nước trái cây'</span><span class="p">);</span> 
+</code></pre></div></div>
 
-<h3 id="3-năng-suất-cao">#3 Năng suất cao</h3>
+<p>Thêm hoặc cập nhật phần tử của map:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">// Nếu phần tử đã có, thì giá trị sẽ được cập nhật</span>
+    <span class="c1">// Vị trí key = 0 là "Trà sữa" sẽ bị thay bằng "Trà đào"</span>
+    <span class="n">m</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s">'Trà đào'</span><span class="p">;</span>
 
-<p>Sử dụng Flutter cho IoT là một lựa chọn tốt vì Flutter phát triển các ứng dụng có thể mở rộng. Vì các ứng dụng rung được tạo bằng Dart nên các ứng dụng này được tối ưu hóa tốt và có cú pháp đơn giản. Một ưu điểm khác của Dart là nó chạy trên Android, iOS, máy tính để bàn và thậm chí cả các ứng dụng web.</p>
+    <span class="c1">// Nếu phần tử chưa có, giá trị sẽ được thêm vào</span>
+    <span class="c1">// Key = 4 chưa có, nên "Trà đá" được thêm vào ở key = 4</span>
+    <span class="n">m</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="s">'Trà đá'</span><span class="p">;</span>
+</code></pre></div></div>
 
-<p>Khả năng Dart sử dụng một cơ sở mã duy nhất cho nhiều thiết bị cũng thúc đẩy năng suất cao hơn và bảo trì tốt hơn.</p>
+<p>Truy cập phần tử của map:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">final</span> <span class="n">mon</span> <span class="o">=</span> <span class="n">m</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="p">;</span> <span class="c1">// mon = 'Trà sữa'</span>
+    <span class="kd">final</span> <span class="n">mon1</span> <span class="o">=</span> <span class="n">m</span><span class="p">[</span><span class="mi">5</span><span class="p">];</span> <span class="c1">// mon1 = null, vì chưa có trong map </span>
 
-<h3 id="4-hiệu-suất-như-trên-nền-tảng-gốc">#4 Hiệu suất như trên nền tảng gốc</h3>
-<p>Một lý do đằng sau thành công lớn của Flutter là cảm giác và hiệu suất giống như bản gốc của nó. Với giao diện đẹp mắt như trên nền tảng gốc (native), Flutter đã chiếm được cảm tình của nhiều người và nó được kỳ vọng sẽ làm được như vậy trong tương lai.</p>
+    <span class="c1">// Tốt nhất nên kiểm tra trước khi truy cập giá trị</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">containKey</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">print</span><span class="p">(</span><span class="n">m</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="p">;</span> <span class="c1">// 'Nước ngọt'</span>
+    <span class="p">}</span>
 
-<p>Nếu chúng ta xem xét việc phát triển ứng dụng IoT, thì Flutter bao gồm nhiều thư viện, thành phần và tiện ích tái tạo cảm giác và giao diện của ứng dụng gốc. Do đó, việc phát triển các ứng dụng IoT trên Flutter sẽ mang lại cảm giác tự nhiên hơn.</p>
+</code></pre></div></div>
 
-<h3 id="5-phát-triển-liền-mạch">#5 Phát triển liền mạch</h3>
+<h2 id="lưu-ý-khi-áp-dụng">Lưu ý khi áp dụng</h2>
 
-<p>Là một nền tảng đa nền tảng hiện đại, Flutter cung cấp cho các kỹ sư phần mềm và QA một môi trường phát triển chức năng và các công cụ mạnh mẽ để nhanh chóng thử nghiệm và gỡ lỗi ứng dụng.</p>
+<p>List có 2 hàm đang lưu ý khi sử dụng: <code class="language-plaintext highlighter-rouge">reduce()</code> và <code class="language-plaintext highlighter-rouge">fold()</code></p>
 
-<p>Hơn nữa, Flutter cung cấp các tính năng tải lại nóng cho phép các nhà phát triển cập nhật mã, xem xét các thay đổi và triển khai đồng thời các ứng dụng IoT. Do đó, việc sử dụng Flutter cho phép triển khai ứng dụng liền mạch và nhanh chóng trên các cửa hàng ứng dụng.</p>
+<p>Cơ bản, 2 hàm này hoạt động tương tự nhau, nhưng <code class="language-plaintext highlighter-rouge">fold()</code> đòi hỏi giá trị bắt đầu</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">final</span> <span class="n">list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">];</span>
+  
+    <span class="c1">// reduce((a,b) =&gt; c)</span>
+    <span class="kd">final</span> <span class="n">sum</span> <span class="o">=</span> <span class="n">list</span><span class="o">.</span><span class="na">reduce</span><span class="p">((</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">);</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">sum</span><span class="p">);</span> <span class="c1">// 15</span>
+  
+    <span class="c1">//fold(initValue, (a,b) =&gt; c)</span>
+    <span class="kd">final</span> <span class="n">sumFold1</span> <span class="o">=</span> <span class="n">list</span><span class="o">.</span><span class="na">fold</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">);</span>
+    <span class="kd">final</span> <span class="n">sumFold2</span> <span class="o">=</span> <span class="n">list</span><span class="o">.</span><span class="na">fold</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">);</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">sumFold1</span><span class="p">);</span> <span class="c1">// 15</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">sumFold2</span><span class="p">);</span> <span class="c1">// 25</span>
+</code></pre></div></div>
+<p>Trong khi <code class="language-plaintext highlighter-rouge">reduce()</code> đòi hỏi cùng kiểu dữ liệu</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="n">T</span> <span class="nf">reduce</span><span class="p">(</span>
+        <span class="n">T</span> <span class="n">combine</span><span class="p">(</span><span class="n">T</span> <span class="n">value</span><span class="p">,</span> <span class="n">T</span> <span class="n">element</span><span class="p">)</span>
+<span class="p">)</span> 
+</code></pre></div></div>
 
-<h3 id="6-giai-diện-người-dùng-có-thể-tuỳ-chỉnh">#6 Giai diện người dùng có thể tuỳ chỉnh</h3>
+<p>Thì <code class="language-plaintext highlighter-rouge">fold()</code> cho phép 2 kiểu dữ liệu khác nhau</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="n">T</span> <span class="nf">fold</span><span class="p">(</span>
+    <span class="n">T</span> <span class="n">initialValue</span><span class="p">,</span>
+    <span class="n">T</span> <span class="n">combine</span><span class="p">(</span><span class="n">T</span> <span class="n">previousValue</span><span class="p">,</span> <span class="n">E</span> <span class="n">element</span><span class="p">)</span>
+<span class="p">)</span> 
+</code></pre></div></div>
 
-<p>Đôi khi, việc phát triển giao diện người dùng phù hợp với ứng dụng của bạn trở nên khó khăn. Khi nói đến việc tạo ra các thiết bị IoT mạnh mẽ, tùy chỉnh là một tính năng tuyệt vời cần có.</p>
+<p>Ví dụ:</p>
+<div class="language-dart highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">final</span> <span class="n">str</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Welcome'</span><span class="p">,</span> <span class="s">'to'</span><span class="p">,</span> <span class="s">'Flutter'</span><span class="p">];</span>
+    <span class="kd">final</span> <span class="n">sumStr</span> <span class="o">=</span> <span class="n">str</span><span class="o">.</span><span class="na">reduce</span><span class="p">((</span><span class="kt">String</span> <span class="n">a</span><span class="p">,</span> <span class="kt">String</span> <span class="n">b</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">);</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">sumStr</span><span class="p">);</span> <span class="c1">// WelcometoFlutter</span>
+  
+    <span class="c1">//Lỗi vì reduce đòi hỏi cùng kiểu dữ liệu</span>
+    <span class="kd">final</span> <span class="n">sumStr2</span> <span class="o">=</span> <span class="n">str</span><span class="o">.</span><span class="na">reduce</span><span class="p">((</span><span class="kt">String</span> <span class="n">a</span><span class="p">,</span> <span class="kt">String</span> <span class="n">b</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">a</span><span class="o">.</span><span class="na">length</span> <span class="o">+</span> <span class="n">b</span><span class="o">.</span><span class="na">length</span><span class="p">);</span>
+  
+    <span class="c1">// fold cho  phép trên các kiểu dữ liệu khác nhau</span>
+    <span class="kd">final</span> <span class="kt">int</span> <span class="n">sumStrFold</span> <span class="o">=</span> <span class="n">str</span><span class="o">.</span><span class="na">fold</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;(</span><span class="mi">0</span><span class="p">,</span> <span class="p">(</span><span class="kt">int</span> <span class="n">count</span><span class="p">,</span> <span class="kt">String</span> <span class="n">b</span><span class="p">)</span> <span class="o">=</span><span class="p">&gt;</span> <span class="n">count</span><span class="o">+</span> <span class="n">b</span><span class="o">.</span><span class="na">length</span><span class="p">);</span>
+    <span class="n">print</span><span class="p">(</span><span class="n">sumStrFold</span><span class="p">);</span> <span class="c1">// 16</span>
+</code></pre></div></div>
 
-<p>Vì có rất nhiều công cụ cho mọi trường hợp trong Flutter nên mọi tùy chỉnh đều có thể thực hiện được. Do đó, nó cho phép phát triển giao diện người dùng khiến mọi người dừng lại và điều hướng ứng dụng của bạn trong nhiều giờ.</p>
-
-<h3 id="7-giảm-chi-phí-phát-triển">#7 Giảm chi phí phát triển</h3>
-
-<p>Việc phát triển các ứng dụng IoT thông minh có thể tốn rất nhiều chi phí nếu không được chú ý đầy đủ trong khi chọn đúng nền tảng để phát triển ứng dụng. Tuy nhiên, Flutter không gây thất vọng trong trường hợp này. Vì Flutter phát triển ứng dụng một cách nhanh chóng nên nó tiết kiệm chi phí rất nhiều.</p>
-
-<p>Sử dụng Flutter để phát triển ứng dụng IoT cũng rất tuyệt vời cho các công ty có ngân sách hạn hẹp. Yếu tố ngân sách rất quan trọng đối với các công ty khởi nghiệp và do đó, lựa chọn Flutter để phát triển ứng dụng IoT sẽ là một quyết định đúng đắn.</p>
-
-<h3 id="8-trải-nghiệm-giống-nhau-trên-các-thiết-bị">#8 Trải nghiệm giống nhau trên các thiết bị</h3>
-
-<p>Người dùng của bạn sẽ không gặp trở ngại khi vận hành giải pháp IoT trên Android hoặc iOS hoặc ứng dụng web. Bạn có thể tạo bố cục, điều khiển và chế độ xem tương tự cho tất cả các hệ thống và thiết bị với thiết kế material design.</p>
-
-<p>Giải pháp Flutter cũng hoạt động trên các hệ thống và thiết bị lỗi thời. Bạn tạo các giao diện của mình bằng cách sử dụng các tiện ích và các tiện ích này giúp tạo các giao diện phức tạp.</p>
-
-<p>Các tiện ích con này và các thành phần khác có thể tái sử dụng, do đó cho phép bạn thiết kế ứng dụng của mình một cách nhanh chóng và tốn ít công sức hơn.</p>
-
-<p>Credit:</p>
-<ul>
-  <li>Hình chủ đề có sử dụng nội dung từ <a href="https://www.freepik.com/free-vector/internet-things-isometric-flowchart_6169717.htm#query=Iot&amp;position=8&amp;from_view=search&amp;track=sph">freepik.com</a></li>
-  <li>Tham khảo từ các bài viết:
-    <ul>
-      <li><a href="https://www.expertappdevs.com/blog/fact-why-flutter-is-perfect-for-iot-apps">Top Reasons Why Developers Use Flutter for IoT Apps</a></li>
-      <li><a href="https://kodytechnolab.com/blog/flutter-for-iot-app-development/">What Makes Flutter Suitable for IoT App Development</a></li>
-    </ul>
-  </li>
-</ul>
-
+<p>Để hiểu rõ hơn và thử các nội dung trên, bạn có thể sử dụng <a href="https://dartpad.dev">DartPad</a>.</p>
                 
 			</article>
 			
@@ -445,8 +532,6 @@ function lunr_search(term) {
 				
 				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/tags.html#featured">featured</a>
 				
-				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/tags.html#sticky">sticky</a>
-				
 				</span>
 			</div>
 
@@ -455,19 +540,19 @@ function lunr_search(term) {
     
     <!-- <ul>
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=Flutter trong các dự án IoT (Bài 1)&url=http://localhost:4000/flutter-for-iot-projects-01/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Collection trong Dart&url=http://localhost:4000/Dart-Collection/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fab fa-twitter"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/flutter-for-iot-projects-01/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/Dart-Collection/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
                 <i class="fab fa-facebook-f"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/flutter-for-iot-projects-01/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Dart-Collection/" onclick="window.open(this.href, 'width=550,height=435');return false;">
                 <i class="fab fa-linkedin-in"></i>
             </a>
         </li>
@@ -478,7 +563,7 @@ function lunr_search(term) {
             <td>Chia sẻ:</td>
            
             <td>
-                <a target="_blank" href="https://twitter.com/intent/tweet?text=Flutter trong các dự án IoT (Bài 1)&url=http://localhost:4000/flutter-for-iot-projects-01/"
+                <a target="_blank" href="https://twitter.com/intent/tweet?text=Collection trong Dart&url=http://localhost:4000/Dart-Collection/"
                     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <i class="fab fa-twitter"></i>
                 </a>
@@ -488,14 +573,14 @@ function lunr_search(term) {
             </td> -->
 
             <td>
-                <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/flutter-for-iot-projects-01/"
+                <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/Dart-Collection/"
                     onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
                     <i class="fab fa-facebook-f"></i>
                 </a>
             </td>
             
             <td>
-                <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/flutter-for-iot-projects-01/"
+                <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/Dart-Collection/"
                 onclick="window.open(this.href, 'width=550,height=435');return false;">
                 <i class="fab fa-linkedin-in"></i>
                 </a>
@@ -586,13 +671,9 @@ function lunr_search(term) {
         <div class="row prevnextlinks small font-weight-bold">
           
             <div class="col-md-6 rightborder pl-0">
-                <a class="text-dark" href="/step-to-learn-flutter/"> <img height="30px" class="mr-1" src="/assets/images/posts/learn-flutter.png">  Các bước để bắt đầu với Flutter</a>
+                <a class="text-dark" href="/flutter-roadmap-2023/"> <img height="30px" class="mr-1" src="/assets/images/posts/flutter-roadmap-2023/flutter-roadmap-2023-banner.png">  Flutter Roadmap - Lộ trình trở thành Flutter Dev - 2023</a>
             </div>
           
-          
-            <div class="col-md-6 text-right pr-0">
-                <a class="text-dark" href="/flutter-for-iot-projects-02/"> Làm thế nào để phát triển dự án IoT với Flutter? (Bài 2)  <img height="30px" class="ml-1" src="/assets/images/posts/iot-flutter-02/Flutter-IoT-Post-Cover-02.jpg"> </a>
-            </div>
           
         </div>
     </div>
